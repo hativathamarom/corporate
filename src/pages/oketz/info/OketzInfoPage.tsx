@@ -1,4 +1,4 @@
-import symbol from "../../../assets/oketz/oketz-icon.png"
+import symbol from "../../../assets/oketz/symbol.png"
 import InfoPage from "../../../layouts/pages/InfoPage"
 import style from "./OketzInfoPage.module.css"
 
