@@ -1,0 +1,18 @@
+.page-navigation {
+    width: 100%;
+    margin: 0;
+    padding: 7.5px;
+    background-color:#181818;
+    display: flex;
+    justify-content: center;
+}
+
+.page-navigation a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: hsla(0, 0%, 63%, 1);
+
+    &:global.active {
+        font-weight: bold;
+    }
+}

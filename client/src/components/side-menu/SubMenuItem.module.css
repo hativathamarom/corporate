@@ -1,0 +1,9 @@
+.sub-container {
+    padding-right: 15px;
+}
+
+.sub-link {
+    color: hsla(0, 0%, 63%, 1);
+    text-decoration: none;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+
+.container {
+    height: 300px;
+    flex-basis: 30%;
+    margin: 15px auto ;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+}
+
+.container:hover{
+    animation-name: scale;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;   
+}
+
+@keyframes scale {
+    from{transform: scale(1)}
+    to{transform: scale(1.05)} 
+ }
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.title h2 {
+    margin: 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.video iframe {
+    height: 200px;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+}

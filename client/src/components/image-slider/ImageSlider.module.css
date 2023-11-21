@@ -1,0 +1,69 @@
+.images img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-animation1 {
+    animation: fade1 2s;
+}
+
+.image-animation2 {
+    animation: fade2 2s;
+}
+
+
+@keyframes fade1 {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade2 {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.image-switch{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.image-switch-btn {
+    width: 40px;
+}
+
+.image-switch-btn button {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.image-switch-btn button:hover {
+    background-color: white;
+    color: black;
+}
+
+.image-ball {
+    width: 10px;
+    height: 10px;
+    margin: 14px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.image-ball-active {
+    background-color: black;
+}
+
+

@@ -1,0 +1,52 @@
+
+
+.home-page-nav {
+    margin: 0;
+    padding: 7.5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #181818;
+}
+
+.home-page-nav div {
+    margin: 0 10px;
+}
+
+.home-page-nav a {
+    color: hsla(0, 0%, 63%, 1);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.article {
+    font-size: large;
+    padding: 2rem 3rem;
+}
+
+.article h1, .article h2 {
+    margin: 1% 0;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.article p{
+    text-align: justify;
+}
+
+.unit-list {
+    margin: 0;
+    padding: 5px;
+    padding-right: 0.5rem;
+    list-style-type: none;
+}
+
+.unit-list li:hover {
+    color: goldenrod;
+}
+
+.gole {
+    text-decoration: underline;
+}

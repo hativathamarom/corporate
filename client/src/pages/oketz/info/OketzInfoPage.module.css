@@ -1,0 +1,12 @@
+.info-container {
+    /* http://drive.google.com/uc?export=view&id=10bmU8Q4TdAY04f4UKQS0DdXndZVTNVnF */
+    background-image: url("../../../assets/oketz/oketz2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.info-container img {
+    width: 300px;
+}

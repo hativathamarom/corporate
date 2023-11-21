@@ -1,0 +1,12 @@
+.main-container {
+    display: flex;
+}
+
+.left-side-menu {
+    width: 15%;
+}
+
+.page-container {
+    width: 85%;
+    height: 100vh;
+}
