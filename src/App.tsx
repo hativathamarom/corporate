@@ -1,6 +1,7 @@
 import {
   createRoutesFromElements,
-  createBrowserRouter,
+  createHashRouter,
+  //createBrowserRouter,
   RouterProvider,
   Route,
   Navigate,
@@ -28,7 +29,7 @@ import HaspakaHatasaInfoPage from "./pages/haspaka-hatasa/info/HaspakaHatasaInfo
 import HaspakaHatasaVideoPage from "./pages/haspaka-hatasa/video/HaspakaHatasaVideoPage";
 
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
       <Route index element={<HomePage />} />

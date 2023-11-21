@@ -29,7 +29,7 @@ export default function SideMenu() {
                     <MenuItem path="/thniha-hatasa" alias={`צניחה והטסה`} />
                 </div>
                 <div>
-                    <MenuItem path="/haspaka-hatasa" alias={`הספקה בהטסה`} />
+                    <MenuItem path="/haspaka-hatasa" alias={`אספקה בהיטס`} />
                 </div>
             </div>
         </div>
