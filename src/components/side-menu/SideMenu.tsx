@@ -1,15 +1,23 @@
 import style from "./SideMenu.module.css"
-import { RxHamburgerMenu } from "react-icons/rx";
 import MenuItem from "./MenuItem";
+import { useContext } from "react";
+import { SideMenuContext } from "../../contexts/SideMenuContext";
+
+import { IoMdClose  } from "react-icons/io";
 
 export default function SideMenu() {
 
+    const sideMenuContext = useContext(SideMenuContext)
+
     return (
         <div className={style["sidebar"]}>
-            <div className={style["menu-icon"]}>
-                <RxHamburgerMenu size={'3em'} />
-            </div>
             <div className={style["menu-items-container"]}>
+                <div className={style["mobile-close-button"]}>
+                    <IoMdClose  
+                        className={style["mobile-close-menu-icon"]}
+                        onClick={()=>{sideMenuContext?.setIsOpen(false)}} 
+                    />
+                </div>
                 <div>
                     <MenuItem path="/" alias={`חטיבת המרום`} />
                 </div>

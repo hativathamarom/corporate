@@ -1,10 +1,15 @@
 .page-navigation {
     width: 100%;
     margin: 0;
-    padding: 7.5px;
+    padding: 20px;
     background-color:#181818;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.side-menu {
+    color: white;
+    visibility: hidden;
 }
 
 .page-navigation a {
@@ -14,5 +19,12 @@
 
     &:global.active {
         font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .side-menu{
+        visibility: visible;
     }
 }

@@ -1,4 +1,4 @@
-import { useRef } from "react"
+import { useContext, useRef } from "react"
 import image1 from "../assets/home/images/1.jpeg"
 import image2 from "../assets/home/images/2.jpeg"
 import image3 from "../assets/home/images/3.jpeg"
@@ -9,12 +9,14 @@ import style from "./HomePage.module.css"
 import ImageSlider from "../components/image-slider/ImageSlider"
 import Anchor from "../components/anchor/Anchor"
 import { BiCheck } from "react-icons/bi";
+import { RxHamburgerMenu } from "react-icons/rx"
+import { SideMenuContext } from "../contexts/SideMenuContext"
 
 
 const images = [image1, image2, image3, image4, image5]
 
 export default function HomePage() {
-
+    const sideMenuContext = useContext(SideMenuContext)
     const aboutRef = useRef<HTMLElement>(null)
     const commanderPageRef = useRef<HTMLElement>(null)
 
@@ -23,14 +25,24 @@ export default function HomePage() {
             <div className={style["content"]}>
                 <header className={style["header"]}>
                     <nav className={style["home-page-nav"]}>
-                        <div>
-                            <Anchor linkRef={aboutRef} text="על החטיבה" />
+                        <div className={style["side-menu"]}>
+                            <span>
+                                <RxHamburgerMenu 
+                                    size={'30px'} 
+                                    onClick={()=>{sideMenuContext?.setIsOpen(true)}}
+                                />
+                            </span>
                         </div>
-                        <div>
-                            <Anchor linkRef={commanderPageRef} text="דף מפקד" />
+                        <div className={style["menu-link"]}>
+                            <div>
+                                <Anchor linkRef={aboutRef} text="על החטיבה" />
+                            </div>
+                            <div>
+                                <Anchor linkRef={commanderPageRef} text="דף מפקד" />
+                            </div>
                         </div>
-                        <div>
-                            {/* <Anchor linkRef={testRef} text="test" /> */}
+                        <div className={style["menu-icon"]}>
+
                         </div>
                     </nav>
 
@@ -41,8 +53,8 @@ export default function HomePage() {
                     </div>
 
                     <article className={style["article"]}>
-                        <div style={{display:"flex"}}>
-                            <img style={{marginLeft:"10px"}} width={50} src={maromSymbol} alt="" />
+                        <div style={{ display: "flex" }}>
+                            <img style={{ marginLeft: "10px" }} width={50} src={maromSymbol} alt="" />
                             <h1>חטיבת המרום</h1>
                         </div>
                         <p>בשנת 1949 הוקם בית בספר לצניחה לאורך השנים צורפו יחידות שונות עד שבסופו של דבר הוקמה חטיבת המרום כפי שהיא היום.</p>
@@ -129,19 +141,19 @@ export default function HomePage() {
                             להחזיר את ביטחון העם היהודי בארצו, ארץ ישראל!
                         </p>
                         <br />
-                        <p style={{fontWeight:"bolder"}}>
+                        <p style={{ fontWeight: "bolder" }}>
                             סומך עליכם וגאה להיות מפקד החטיבה המיוחדת הזאת בגודל
                             שעה זו - רק ניצחון!
                         </p>
                         <br />
-                        <h1 style={{fontWeight:"900"}}>
+                        <h1 style={{ fontWeight: "900" }}>
                             ביחד עד הניצחון
                         </h1>
-                        <p style={{textAlign:"left",width:"90%"}}>
+                        <p style={{ textAlign: "left", width: "90%" }}>
                             אל״מ, גיל אליה
                         </p>
-                        <p style={{textAlign:"left",width:"90%"}}>
-                            מפקד מרום   
+                        <p style={{ textAlign: "left", width: "90%" }}>
+                            מפקד מרום
                         </p>
                     </article>
                 </section>

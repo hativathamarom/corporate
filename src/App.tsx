@@ -27,6 +27,7 @@ import ThnihaHatasaInfoPage from "./pages/thniha-hatasa/info/ThnihaHatasaInfoPag
 import ThnihaHatasaVideoPage from "./pages/thniha-hatasa/video/ThnihaHatasaVideoPage";
 import HaspakaHatasaInfoPage from "./pages/haspaka-hatasa/info/HaspakaHatasaInfoPage";
 import HaspakaHatasaVideoPage from "./pages/haspaka-hatasa/video/HaspakaHatasaVideoPage";
+import SideMenuContextProvider from "./contexts/SideMenuContext";
 
 
 const router = createHashRouter(
@@ -71,7 +72,9 @@ const router = createHashRouter(
 function App() {
 
   return (
-    <RouterProvider router={router} />
+    <SideMenuContextProvider>
+      <RouterProvider router={router} />
+    </SideMenuContextProvider>
   )
 }
 

@@ -2,11 +2,31 @@
     display: flex;
 }
 
-.left-side-menu {
+.left-side-menu-open {
+    width: 15%;
+}
+
+.left-side-menu-close {
     width: 15%;
 }
 
 .page-container {
     width: 85%;
     height: 100vh;
+}
+
+
+@media screen and (max-width: 600px) {
+    .left-side-menu-close {
+        width: 0;
+    }
+
+    .left-side-menu-open {
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .page-container{
+        width: 100%;
+    }
 }
