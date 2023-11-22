@@ -19,7 +19,10 @@ export default function SideMenu() {
                     />
                 </div>
                 <div>
-                    <MenuItem path="/" alias={`חטיבת המרום`} />
+                    <MenuItem 
+                        path="/" 
+                        alias={`חטיבת המרום`} 
+                    />
                 </div>
                 <div>
                     <MenuItem path="/balnam" alias={`בלנ"ם`} />

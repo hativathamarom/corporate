@@ -1,4 +1,4 @@
-import symbol from "../../../assets/bet-sefer-yeri/symbol.jpeg"
+import symbol from "../../../assets/bet-sefer-yeri/symbol.png"
 import InfoPage from "../../../layouts/pages/InfoPage"
 import style from "./BetSeferYeriInfoPage.module.css"
 
