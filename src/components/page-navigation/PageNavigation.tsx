@@ -4,6 +4,7 @@ import { PageMenuProps } from "../../types/page-menu"
 import { RxHamburgerMenu } from "react-icons/rx"
 import { useContext } from "react"
 import { SideMenuContext } from "../../contexts/SideMenuContext"
+import { v4 } from "uuid"
 
 export default function PageNavigation(props: PageMenuProps) {
 
@@ -15,18 +16,23 @@ export default function PageNavigation(props: PageMenuProps) {
                 <span>
                     <RxHamburgerMenu
                         size={'30px'}
-                        onClick={()=>{sideMenuContext?.setIsOpen(true)}}
+                        onClick={() => { sideMenuContext?.setIsOpen(true) }}
                     />
                 </span>
             </div>
-            <div>
-            {
-                props.items.map(item => {
-                    return (
-                        <NavLink to={item.to}> {item.text} </NavLink>
-                    )
-                })
-            }
+            <div className={style["side-menu-items"]}>
+                {
+                    props.items.map(item => {
+                        return (
+                            <NavLink
+                                key={v4()}
+                                to={item.to}
+                            >
+                                {item.text}
+                            </NavLink>
+                        )
+                    })
+                }
             </div>
             <div>
 

@@ -12,9 +12,14 @@
     visibility: hidden;
 }
 
+.side-menu-items {
+    margin: auto;
+}
+
 .page-navigation a {
     margin: 0 10px;
     text-decoration: none;
+    text-align: center;
     color: hsla(0, 0%, 63%, 1);
 
     &:global.active {
