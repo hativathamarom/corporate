@@ -11,12 +11,16 @@ import BalnamPage from "./pages/balnam/BalnamPage"
 import './App.css'
 import HomePage from "./pages/HomePage";
 import LotarPage from "./pages/lotar/LotarPage";
-import OketzPage from "./pages/oketz/OketzPage";
+
 import ThnihaHatasaPage from "./pages/thniha-hatasa/ThnihaHatasaPage";
 import BetSeferYeriPage from "./pages/bet-sefer-yeri/BetSeferYeriPage";
 import HaspakaHatasaPage from "./pages/haspaka-hatasa/HaspakaHatasaPage";
+
+import OketzPage from "./pages/oketz/OketzPage";
 import OketzInfoPage from "./pages/oketz/info/OketzInfoPage";
 import OketzVideoPage from "./pages/oketz/video/OketzVideoPage";
+import OketzArticlesPage from "./pages/oketz/article/OketzArticlesPage";
+
 import LotarInfoPage from "./pages/lotar/info/LotarInfoPage";
 import LotarVideoPage from "./pages/lotar/video/LotarVideoPage";
 import BalnamInfoPage from "./pages/balnam/info/BalnamInfoPage";
@@ -29,6 +33,7 @@ import HaspakaHatasaInfoPage from "./pages/haspaka-hatasa/info/HaspakaHatasaInfo
 import HaspakaHatasaVideoPage from "./pages/haspaka-hatasa/video/HaspakaHatasaVideoPage";
 import SideMenuContextProvider from "./contexts/SideMenuContext";
 import MobileImageSlider from "./components/image-slider/MobileImageSlider";
+
 
 
 const router = createHashRouter(
@@ -49,6 +54,7 @@ const router = createHashRouter(
         <Route index element={<Navigate to="/oketz/info" />} />
         <Route path="info" element={<OketzInfoPage />} />
         <Route path="video" element={<OketzVideoPage />} />
+        <Route path="articles" element={<OketzArticlesPage />} />
       </Route>
       <Route path="bet-sefer-yeri" element={<BetSeferYeriPage />} >
         <Route index element={<Navigate to="/bet-sefer-yeri/info" />} />
