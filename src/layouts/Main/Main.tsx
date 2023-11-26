@@ -10,8 +10,6 @@ export default function Main() {
     
     const sideMenuContext = useContext(SideMenuContext)
 
-    console.log(sideMenuContext?.isOpen);
-    
     return (
         <main className={style["main-container"]}>
             <div className={sideMenuContext?.isOpen ? style["left-side-menu-open"] : style["left-side-menu-close"]}>

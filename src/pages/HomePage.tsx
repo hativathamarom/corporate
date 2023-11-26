@@ -60,7 +60,8 @@ export default function HomePage() {
                         <p>בשנת 1949 הוקם בית בספר לצניחה לאורך השנים צורפו יחידות שונות עד שבסופו של דבר הוקמה חטיבת המרום כפי שהיא היום.</p>
                         <p>
                             קיום החטיבה כוללת את היחידות הבאות :
-                            <ul className={style["unit-list"]}>
+                        </p>
+                        <ul className={style["unit-list"]}>
                                 <li><BiCheck /> בלנ"ם</li>
                                 <li><BiCheck /> לוט"ר</li>
                                 <li><BiCheck /> עוקץ</li>
@@ -68,7 +69,6 @@ export default function HomePage() {
                                 <li><BiCheck /> צניחה והטסה</li>
                                 <li><BiCheck /> הספקה בהטסה</li>
                             </ul>
-                        </p>
                         <p>
                             תוחומי העיסוק של החטיבה הוא רכבים וזה גם מה שמיחד אותה מחטיבות אחרות.
                         </p>
