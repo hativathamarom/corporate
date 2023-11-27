@@ -1,5 +1,5 @@
 import symbol from "../../../assets/bet-sefer-yeri/symbol.png"
-import InfoPage from "../../../layouts/pages/InfoPage"
+import InfoPage from "../../../layouts/pages/info/InfoPage"
 import style from "./BetSeferYeriInfoPage.module.css"
 
 export default function BetSeferYeriInfoPage() {

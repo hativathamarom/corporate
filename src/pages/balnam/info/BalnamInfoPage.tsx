@@ -1,4 +1,4 @@
-import InfoPage from "../../../layouts/pages/InfoPage";
+import InfoPage from "../../../layouts/pages/info/InfoPage";
 import symbol from "../../../assets/balnam/balnam-symbol.png"
 import style from "./BalnamInfoPage.module.css"
 

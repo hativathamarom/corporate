@@ -1,5 +1,5 @@
 import symbol from "../../../assets/haspaka-hatasa/symbol.png"
-import InfoPage from "../../../layouts/pages/InfoPage"
+import InfoPage from "../../../layouts/pages/info/InfoPage"
 import style from "./HaspakaHatasaInfoPage.module.css"
 
 export default function HaspakaHatasaInfoPage() {

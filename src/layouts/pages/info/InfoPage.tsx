@@ -1,5 +1,5 @@
 import style from "./InfoPage.module.css"
-import { InfoPageProps } from "../../types/info-page"
+import { InfoPageProps } from "../../../types/info-page"
 
 export default function InfoPage(props: InfoPageProps) {
     return (

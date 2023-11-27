@@ -1,5 +1,5 @@
 import symbol from "../../../assets/thniha-hatasa/symbol.png";
-import InfoPage from "../../../layouts/pages/InfoPage"
+import InfoPage from "../../../layouts/pages/info/InfoPage"
 import style from "./ThnihaHatasaInfoPage.module.css"
 
 export default function ThnihaHatasaInfoPage() {
