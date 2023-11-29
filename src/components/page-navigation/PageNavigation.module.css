@@ -9,7 +9,7 @@
 }
 
 .side-menu {
-    margin: auto;
+    margin: auto 0;
     color: white;
     visibility: hidden;
 }
@@ -17,7 +17,7 @@
 .side-menu-items {
     display: flex;
     margin: auto;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 .page-navigation a {

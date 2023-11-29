@@ -81,7 +81,13 @@
         height: 100px;
         width: 100px;
     }
+    
     .image {
         width: 0;
     }
-  }
+
+    .info p {
+        font-size: 80%;
+    }
+  
+}
