@@ -3,7 +3,6 @@ import VideoCardList from "../../../components/video/video-card-list/VideoCardLi
 export default function BalnamVideoPage() {
 
     return (
-        <div>
             <VideoCardList
                 videos={[
                     {
@@ -20,7 +19,6 @@ export default function BalnamVideoPage() {
                     },
                 ]}
             />
-        </div>
     )
 
 }

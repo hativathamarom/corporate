@@ -3,13 +3,11 @@ import VideoCardList from "../../../components/video/video-card-list/VideoCardLi
 export default function HaspakaHatasaVideoPage() {
 
     return (
-        <div>
             <VideoCardList 
                 videos={[
        
                 ]}
             />
-        </div>
     )
 
 }

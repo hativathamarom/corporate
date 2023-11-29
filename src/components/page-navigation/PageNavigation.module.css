@@ -5,6 +5,7 @@
     background-color:#181818;
     display: flex;
     justify-content: space-between;
+    height: 10%;
 }
 
 .side-menu {

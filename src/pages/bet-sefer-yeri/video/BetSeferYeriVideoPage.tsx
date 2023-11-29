@@ -3,7 +3,6 @@ import VideoCardList from "../../../components/video/video-card-list/VideoCardLi
 export default function BetSeferYeriVideoPage() {
 
     return (
-        <div>
             <VideoCardList 
                 videos={[
                     {
@@ -16,7 +15,6 @@ export default function BetSeferYeriVideoPage() {
                     }
                 ]}
             />
-        </div>
     )
 
 }

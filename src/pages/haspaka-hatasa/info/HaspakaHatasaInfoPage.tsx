@@ -1,11 +1,11 @@
 import symbol from "../../../assets/haspaka-hatasa/symbol.png"
-import InfoPage from "../../../layouts/pages/info/InfoPage"
+import InfoSlide from "../../../components/info-slide/InfoSlide"
 import style from "./HaspakaHatasaInfoPage.module.css"
 
 export default function HaspakaHatasaInfoPage() {
     return (
         <div className={style["info-container"]}>
-            <InfoPage
+            <InfoSlide
                 title="אספקה בהיטס"
                 paragraph={`
                     יחידת אספקה בהטס מתמחה בלוגיסטיקה והספקת משאבים קריטים לכל חלקי הצבא.

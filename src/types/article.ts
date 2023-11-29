@@ -1,8 +1,8 @@
-export type ArticlesProps = {
-    articles: ArticleProps[]
+export type ArticleCardListProps = {
+    articles: ArticleCardProps[]
 }
 
-export type ArticleProps = {
+export type ArticleCardProps = {
     imageSrc:string
     header:string
     paragraph:string

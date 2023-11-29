@@ -1,0 +1,36 @@
+.yizkor-card {
+    margin: 15px 0;
+    padding: 30px;
+    height: 330px;
+    flex-basis: 30%;
+    box-shadow: 2px 2px 18px 2px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(35px);
+}
+
+.yizkor-gif-container {
+    text-align: center;
+}
+
+.yizkor-name-container {
+    margin: auto;
+}
+
+.yizkor-name-container h1 {
+    text-align: center;
+}
+
+.yizkor-gif {
+    border-radius: 5px;
+    width: 35%;
+}
+
+.yizkor-role span {
+    font-weight: bold;
+}
+
+.yizkor-role p {
+    margin: 5px 0;
+    text-align: justify;
+}

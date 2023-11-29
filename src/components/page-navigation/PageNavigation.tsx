@@ -35,7 +35,6 @@ export default function PageNavigation(props: PageMenuProps) {
                 }
             </div>
             <div>
-
             </div>
         </nav>
     )

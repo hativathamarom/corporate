@@ -3,7 +3,6 @@ import VideoCardList from "../../../components/video/video-card-list/VideoCardLi
 export default function OketzVideoPage() {
 
     return (
-        <div>
             <VideoCardList 
                 videos={[
                     {
@@ -33,7 +32,6 @@ export default function OketzVideoPage() {
                     }
                 ]}
             />
-        </div>
     )
 
 }

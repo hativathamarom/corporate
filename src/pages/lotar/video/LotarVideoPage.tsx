@@ -3,7 +3,6 @@ import VideoCardList from "../../../components/video/video-card-list/VideoCardLi
 export default function LotarVideoPage() {
 
     return (
-        <div>
             <VideoCardList
                 videos={[
                     {
@@ -32,7 +31,6 @@ export default function LotarVideoPage() {
                     },
                 ]}
             />
-        </div>
     )
 
 }
