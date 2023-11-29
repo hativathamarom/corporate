@@ -1,7 +1,7 @@
 import {
   createRoutesFromElements,
-  // createHashRouter,
-  createBrowserRouter,
+  createHashRouter,
+  // createBrowserRouter,
   RouterProvider,
   Route,
   Navigate,
@@ -37,7 +37,7 @@ import OketzYizkorPage from "./pages/oketz/yizkor/OketzYizkorPage";
 
 
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
       <Route index element={<HomePage />} />
