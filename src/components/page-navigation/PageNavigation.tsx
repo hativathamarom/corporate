@@ -13,12 +13,10 @@ export default function PageNavigation(props: PageMenuProps) {
     return (
         <nav className={style["page-navigation"]}>
             <div className={style["side-menu"]}>
-                <span>
                     <RxHamburgerMenu
                         size={'30px'}
                         onClick={() => { sideMenuContext?.setIsOpen(true) }}
                     />
-                </span>
             </div>
             <div className={style["side-menu-items"]}>
                 {

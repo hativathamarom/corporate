@@ -9,15 +9,19 @@
 }
 
 .side-menu {
+    margin: auto;
     color: white;
     visibility: hidden;
 }
 
 .side-menu-items {
+    display: flex;
     margin: auto;
+    overflow-x: scroll;
 }
 
 .page-navigation a {
+    /* width: 83px; */
     margin: 0 10px;
     text-decoration: none;
     text-align: center;
