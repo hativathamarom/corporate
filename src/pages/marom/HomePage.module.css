@@ -1,0 +1,14 @@
+
+.article {
+    font-size: large;
+    padding: 2rem 3rem;
+}
+
+.article p{
+    text-align: justify;
+}
+
+.gole {
+    text-decoration: underline;
+}
+

@@ -9,7 +9,7 @@ import {
 import Root from "./layouts/Root";
 import BalnamPage from "./pages/balnam/BalnamPage"
 import './App.css'
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/marom/HomePage";
 import LotarPage from "./pages/lotar/LotarPage";
 
 import ThnihaHatasaPage from "./pages/thniha-hatasa/ThnihaHatasaPage";

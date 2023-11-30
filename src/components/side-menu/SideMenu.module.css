@@ -1,22 +1,26 @@
-.sidebar{
+.side-menu{
     position: fixed;
     width: inherit;
     flex-shrink: 0;
     overflow: auto;
     color: white;
+    height: 100%;
 }
 
-.menu-icon {
-  padding: 20px;  
-  text-align: left;
-  background-color: #181818;
+.side-menu-symbol {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.side-menu-links {
+  margin-top: 30px;
+  padding-right: 10px;
 }
 
 .menu-items-container {
-  padding-top: 150px;
+  padding-top: 1px;
   background-color: #181818;
-  height: 100vh;
-  padding-right: 15px;
+  height: 100%;
 }
 
 .menu-items-container div {
@@ -40,8 +44,13 @@
   visibility: hidden; 
 }
 
+
+.side-menu-symbol img {
+    width: 50px;
+}
+
 @media screen and (max-width: 600px) {
- 
+
   .mobile-close-button {
     background-color: #181818;
     text-align: center;    

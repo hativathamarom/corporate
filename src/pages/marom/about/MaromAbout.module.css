@@ -1,0 +1,26 @@
+
+.about-maraom-container p , .about-maraom-container li {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #868e96;
+    text-align: justify;
+    cursor: default;
+}
+
+
+.about-maraom-title{
+    font-size: 5rem;
+    color: red;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.unit-list {
+    margin: 0;
+    padding: 5px 0;
+    /* padding-right: 0.5rem; */
+    list-style-type: none;
+}
+
+.unit-list li:hover {
+    color: goldenrod;
+}

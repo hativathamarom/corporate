@@ -32,13 +32,14 @@ export default function ImageSlider(props: ImageSliderProps) {
     }
 
     return (
-        <div className={style["container"]}>
             <div className={style["images"]}>
-                <img
-                    className={`${currentImage % 2 === 0 ? style["image-animation1"] : style["image-animation2"]}`}
-                    ref={imageRef}
-                    src={props.images[currentImage]}
-                />
+                <div>
+                    <img
+                        className={`${currentImage % 2 === 0 ? style["image-animation1"] : style["image-animation2"]}`}
+                        ref={imageRef}
+                        src={props.images[currentImage]}
+                    />
+                </div>
                 <div className={style["image-switch"]}>
 
                     <div className={style["image-switch-btn"]}>
@@ -56,6 +57,5 @@ export default function ImageSlider(props: ImageSliderProps) {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
