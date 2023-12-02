@@ -19,8 +19,12 @@ export default function HomePage() {
     return (
         <>
             <header className={style["header"]}>
-                <MaromNavigation aboutRef={aboutRef} commanderPageRef={commanderPageRef} />
-                <ImageSlider images={images} interval={5000} />
+                <div className={style["nav-container"]}>
+                    <MaromNavigation aboutRef={aboutRef} commanderPageRef={commanderPageRef} />
+                </div>
+                <div className={style["image-slider-container"]}>
+                    <ImageSlider images={images} interval={5000} />
+                </div>
             </header>
             <section className={style["section"]} ref={aboutRef} >
                 <article className={style["article"]}>

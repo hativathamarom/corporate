@@ -5,13 +5,13 @@ import style from "./Anchor.module.css"
 export default function Anchor(props: AnchorProps) {
 
     const scrollInToView = () => {
-        let y = props.linkRef.current?.getBoundingClientRect().top;
-        
+        let y = props.linkRef.current?.getBoundingClientRect().y;
+
         if (y) {
             if (props.yoffset)
-                window.scrollTo({ top: y + props.yoffset, behavior: "smooth" })
+                window.scrollTo({ top: y + window.scrollY + props.yoffset, behavior: "smooth" })
             else
-                window.scrollTo({ top: y, behavior: "smooth" })
+                window.scrollTo({ top: y + window.scrollY, behavior: "smooth" })
         }
     }
 

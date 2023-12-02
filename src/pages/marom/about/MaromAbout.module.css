@@ -24,3 +24,11 @@
 .unit-list li:hover {
     color: goldenrod;
 }
+
+
+
+@media screen and (max-width: 600px ) {
+    .about-maraom-title {
+        font-size: 3rem;
+    }
+}

@@ -1,4 +1,19 @@
 
+.header {
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    position: fixed;
+    z-index: 10;
+}
+
+.image-slider-container {
+    padding-top: 74px;
+}
+
 .article {
     font-size: large;
     padding: 2rem 3rem;
@@ -12,3 +27,9 @@
     text-decoration: underline;
 }
 
+
+@media screen and (max-width: 600px) {
+    .nav-container {
+        width: 100%;
+    }
+}

@@ -14,7 +14,7 @@ export default function VideoCard(props: VideoCardProps) {
                 />
             </div>
             <div className={style["title"]}>
-                <h2>{props.title}</h2>
+                <h3>{props.title}</h3>
             </div>
         </div>
     )

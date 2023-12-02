@@ -39,6 +39,7 @@
 
 .image-switch{
     /* background-color: rgba(0, 0, 0, 0.5); */
+    
     width: 100%;
     z-index: 1;
     position: absolute;
@@ -47,7 +48,6 @@
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
 }
 
 
@@ -68,7 +68,6 @@
     width: 10px;
     height: 10px;
     margin: 14px;
-    /* border: 1px solid black; */
     border: 0;
     background-color: white;
     border-radius: 50%;
