@@ -43,6 +43,6 @@
 
 @media (max-width: 600px) {
     .container {
-        flex-basis: 70%;
+        flex-basis: 90%;
     }
 }
