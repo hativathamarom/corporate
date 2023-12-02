@@ -7,7 +7,7 @@
     justify-content: center;
     width: 85%;
     position: fixed;
-    z-index: 10;
+    z-index: 5;
 }
 
 .image-slider-container {
