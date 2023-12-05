@@ -1,0 +1,11 @@
+.scroll-state-container {
+    width: 100%;
+    height: 3px;
+    background: #ccc;
+}
+
+
+.scroll-state{
+    height: inherit;
+    background-color: rgb(255, 0, 0);
+}
