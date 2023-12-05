@@ -2,11 +2,38 @@
 import style from "./YizkorCard.module.css"
 import yizkorGif from "../../../assets/yizkor1.gif"
 import { YizkorCardProps } from "../../../types/yizkor"
+import { useState } from "react"
 
 
 export default function YizkorCard(props: YizkorCardProps) {
+
+    const [xPct ,setXPct] = useState(0)
+    const [yPct ,setYPct] = useState(0)
+
+    const onMouseMoveHandler = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+        const rect = e.currentTarget.getBoundingClientRect()
+        const width = rect.width
+        const height = rect.height
+
+        const mouseX = e.clientX - rect.left
+        const mouseY = e.clientY - rect.top
+
+        setXPct(((mouseX / width) - 0.5))
+        setYPct(((mouseY / height) - 0.5) * -1)
+    }
+
+    const onMouseLeave = () => {
+        setXPct(0)
+        setYPct(0)
+    }
+
     return (
-        <div className={style["yizkor-card"]}>
+        <div 
+            className={style["yizkor-card"]}
+            onMouseMove={(e)=>onMouseMoveHandler(e)} 
+            onMouseLeave={onMouseLeave}
+            style={{transform:`rotateX(${yPct}deg) rotateY(${xPct}deg)`}}
+        >
             <div className={style["yizkor-header"]}>
                 <div className={style["yizkor-gif-container"]}>
                     <img className={style["yizkor-gif"]} src={yizkorGif} alt="" />
