@@ -42,35 +42,35 @@ const router = createHashRouter(
     <Route path="/" element={<Root />}>
       <Route index element={<HomePage />} />
       <Route path="balnam" element={<BalnamPage />}>
-        <Route index element={<Navigate to="/balnam/info" />} />
-        <Route path="info" element={<BalnamInfoPage />} />
+        {/* <Route index element={<Navigate to="/balnam/info" />} /> */}
+        <Route index element={<BalnamInfoPage />} />
         <Route path="video" element={<BalnamVideoPage />} />
       </Route>
       <Route path="lotar" element={<LotarPage />}>
-        <Route index element={<Navigate to="/lotar/info" />} />
-        <Route path="info" element={<LotarInfoPage />} />
+        {/* <Route index element={<Navigate to="/lotar/info" />} /> */}
+        <Route index element={<LotarInfoPage />} />
         <Route path="video" element={<LotarVideoPage />} />
       </Route>
       <Route path="oketz" element={<OketzPage />}>
-        <Route index element={<Navigate to="/oketz/info" />} />
-        <Route path="info" element={<OketzInfoPage />} />
+        {/* <Route index element={<Navigate to="/oketz/info" />} /> */}
+        <Route index element={<OketzInfoPage />} />
         <Route path="video" element={<OketzVideoPage />} />
         <Route path="articles" element={<OketzArticlesPage />} />
         <Route path="yizkor" element={<OketzYizkorPage />} />
       </Route>
       <Route path="bet-sefer-yeri" element={<BetSeferYeriPage />} >
-        <Route index element={<Navigate to="/bet-sefer-yeri/info" />} />
-        <Route path="info" element={<BetSeferYeriInfoPage />} />
+        {/* <Route index element={<Navigate to="/bet-sefer-yeri/info" />} /> */}
+        <Route index element={<BetSeferYeriInfoPage />} />
         <Route path="video" element={<BetSeferYeriVideoPage />} />
       </Route>
       <Route path="thniha-hatasa" element={<ThnihaHatasaPage />} >
-        <Route index element={<Navigate to="/thniha-hatasa/info" />} />
-        <Route path="info" element={<ThnihaHatasaInfoPage />} />
+        {/* <Route index element={<Navigate to="/thniha-hatasa/info" />} /> */}
+        <Route index element={<ThnihaHatasaInfoPage />} />
         <Route path="video" element={<ThnihaHatasaVideoPage />} />
       </Route>
       <Route path="haspaka-hatasa" element={<HaspakaHatasaPage />}>
-        <Route index element={<Navigate to="/haspaka-hatasa/info" />} />
-        <Route path="info" element={<HaspakaHatasaInfoPage />} />
+        {/* <Route index element={<Navigate to="/haspaka-hatasa/info" />} /> */}
+        <Route index element={<HaspakaHatasaInfoPage />} />
         <Route path="video" element={<HaspakaHatasaVideoPage />} />
       </Route>
       <Route path="image" element={<MobileImageSlider/>} ></Route>

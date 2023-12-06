@@ -25,6 +25,7 @@ export default function PageNavigation(props: PageMenuProps) {
                             <NavLink
                                 key={v4()}
                                 to={item.to}
+                                end
                             >
                                 {item.text}
                             </NavLink>

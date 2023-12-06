@@ -5,7 +5,7 @@ export default function LotarPage() {
     return (
         <>
             <PageNavigation items={[
-                { text: 'על היחידה', to: '/lotar/info' },
+                { text: 'על היחידה', to: '/lotar' },
                 { text: 'סרטוני תדמית', to: '/lotar/video' },
                 { text: 'כתבות', to: '/lotar/articles' }
             ]} />
