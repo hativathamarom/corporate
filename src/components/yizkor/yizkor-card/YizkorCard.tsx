@@ -4,13 +4,24 @@ import yizkorGif from "../../../assets/yizkor1.gif"
 import { YizkorCardProps } from "../../../types/yizkor"
 import { useState } from "react"
 
+import useScreenSize from "../../../hooks/useScreenSize"
+
 
 export default function YizkorCard(props: YizkorCardProps) {
+
+    const screenSize = useScreenSize()
 
     const [xPct ,setXPct] = useState(0)
     const [yPct ,setYPct] = useState(0)
 
     const onMouseMoveHandler = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+
+        if(screenSize.width < 600) {
+            setXPct(0)
+            setYPct(0)
+            return
+        }
+
         const rect = e.currentTarget.getBoundingClientRect()
         const width = rect.width
         const height = rect.height
