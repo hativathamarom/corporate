@@ -1,6 +1,6 @@
 
 import style from "./YizkorCard.module.css"
-import yizkorGif from "../../../assets/yizkor1.gif"
+// import yizkorGif from "../../../assets/yizkor1.gif"
 import { YizkorCardProps } from "../../../types/yizkor"
 import { useState } from "react"
 
