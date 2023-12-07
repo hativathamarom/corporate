@@ -51,7 +51,12 @@
         width: 100%;
     }
 
-    .about-maraom-title {
+    .about-maraom-title h1 {
         font-size: 3rem;
+    }
+
+    .about-maraom-title h3 {
+        font-size: 1.5rem;
+        line-height: 30px;
     }
 }
