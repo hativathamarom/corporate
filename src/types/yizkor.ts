@@ -3,6 +3,7 @@ export type YizkorCardProps = {
     role:string
     militaryBackground:string
     fallDate:string
+    img?:string
 }
 
 export type YizkorCardListProps = {

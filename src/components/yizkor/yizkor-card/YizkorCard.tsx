@@ -11,12 +11,12 @@ export default function YizkorCard(props: YizkorCardProps) {
 
     const screenSize = useScreenSize()
 
-    const [xPct ,setXPct] = useState(0)
-    const [yPct ,setYPct] = useState(0)
+    const [xPct, setXPct] = useState(0)
+    const [yPct, setYPct] = useState(0)
 
-    const onMouseMoveHandler = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const onMouseMoveHandler = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
 
-        if(screenSize.width < 600) {
+        if (screenSize.width < 600) {
             setXPct(0)
             setYPct(0)
             return
@@ -39,23 +39,31 @@ export default function YizkorCard(props: YizkorCardProps) {
     }
 
     return (
-        <div 
-            className={style["yizkor-card"]}
-            onMouseMove={(e)=>onMouseMoveHandler(e)} 
-            onMouseLeave={onMouseLeave}
-            style={{transform:`rotateX(${yPct}deg) rotateY(${xPct}deg)`}}
-        >
-            <div className={style["yizkor-header"]}>
-                <div className={style["yizkor-gif-container"]}>
-                    <img className={style["yizkor-gif"]} src={yizkorGif} alt="" />
-                </div>
-            </div>
-            <div className={style["yizkor-main"]}>
-                <div className={style["yizkor-name-container"]}>
-                    <h1>{props.name}</h1>
+        <div className={style["yizkor-card-container"]}>
+            <div
+                className={style["yizkor-card"]}
+                onMouseMove={(e) => onMouseMoveHandler(e)}
+                onMouseLeave={onMouseLeave}
+                style={{ transform: `rotateX(${yPct}deg) rotateY(${xPct}deg)` }}
+            >
+                <div className={style["yizkor-header"]}>
+                    <div className={style["yizkor-gif-container"]}>
+                        {
+                            props.img &&
+                            <img className={style["yizkor-personal-img"]} src={props.img} alt="" />
+                        }
+                    </div>
+                    <div className={style["yizkor-name-container"]}>
+                        <div>
+                            <h1>{props.name}</h1>
+                        </div>
+                        <div>
+                            <img className={style["yizkor-gif"]} src={yizkorGif} alt="" />
+                        </div>
+                    </div>
                 </div>
                 <hr />
-                <div className={style["yizkor-role"]}>
+                <div className={style["yizkor-main"]}>
                     <p><span>תפקיד: </span>{props.role}</p>
                     <p><span>רקע צבאי: </span>{props.militaryBackground}</p>
                     <p><span>תאריך נפילה: </span>{props.fallDate}</p>

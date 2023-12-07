@@ -1,66 +1,93 @@
-.yizkor-card {
-    margin: 15px 0;
-    padding: 30px;
-    height: 350px;
+.yizkor-card-container {
     flex-basis: 30%;
-    /* box-shadow: 2px 2px 18px 2px rgb(0, 0, 0, 0.2); */
+    margin: 15px 0;
+    perspective: 50px;
+}
+.yizkor-card {
+    height: 400px;
+    width: 100%;
+    padding: 20px;
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     background-color: rgba(255, 255, 255, .15);
     transition: transform 0.05s;
     -webkit-transition: transform 0.05s;
-    /* transform: rotateX(0) rotateY(0); */
 }
 
 .yizkor-gif-container {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .yizkor-name-container {
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
+
+.yizkor-name-container div {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .yizkor-name-container h1 {
     text-align: center;
 }
 
-.yizkor-gif {
+.yizkor-personal-img {
     border-radius: 5px;
-    width: 35%;
+    width: 100px;
+    height: 100px;
 }
 
-.yizkor-role span {
+.yizkor-gif {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.yizkor-main span {
     font-weight: bold;
 }
 
-.yizkor-role p {
+.yizkor-main p {
     margin: 5px 0;
     text-align: justify;
 }
 
 
 @media screen and (max-width: 1500px ) {
-    .yizkor-card  {
+    .yizkor-card-container  {
         flex: 0 0 45%;
     }
 }
 
 
 @media screen and (max-width: 950px ) {
-    .yizkor-card  {
+    .yizkor-card-container  {
         flex: 0 0 60%;
     }
 }
 
 @media screen and (max-width: 800px ) {
-    .yizkor-card  {
+    .yizkor-card-container  {
         flex: 0 0 70%;
     }
 }
 
 @media screen and (max-width: 600px ) {
-    .yizkor-card  {
+    .yizkor-card-container  {
         flex: 0 0 90%;
         flex-basis: 90%;
+    }
+    .yizkor-card {
+        height: 460px;
+    }
+    .yizkor-name-container h1 {
+        font-size: 1.5rem;
     }
 }

@@ -16,6 +16,7 @@ export default function YizkorCardList(props: YizkorCardListProps) {
                             role={item.role}
                             militaryBackground={item.militaryBackground}
                             fallDate={item.fallDate}
+                            img={item.img}
                         />
                     )
                 })

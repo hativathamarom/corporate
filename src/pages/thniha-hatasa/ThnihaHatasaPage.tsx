@@ -6,7 +6,8 @@ export default function ThnihaHatasaPage() {
             <PageNavigation items={[
                 { text: 'על היחידה', to: '/thniha-hatasa' },
                 { text: 'סרטוני תדמית', to: '/thniha-hatasa/video' },
-                { text: 'כתבות', to: '/thniha-hatasa/articles' }
+                { text: 'כתבות', to: '/thniha-hatasa/articles' },
+                { text: 'יזכור🕯️', to: '/thniha-hatasa/yizkor' }
             ]} />
             <Outlet />
         </>

@@ -33,6 +33,7 @@ import HaspakaHatasaVideoPage from "./pages/haspaka-hatasa/video/HaspakaHatasaVi
 import SideMenuContextProvider from "./contexts/SideMenuContext";
 import MobileImageSlider from "./components/image-slider/MobileImageSlider";
 import OketzYizkorPage from "./pages/oketz/yizkor/OketzYizkorPage";
+import ThnihaHatasaYizkorPage from "./pages/thniha-hatasa/yizkor/ThnihaHatasaYizkorPage";
 
 
 
@@ -61,6 +62,7 @@ const router = createHashRouter(
       <Route path="thniha-hatasa" element={<ThnihaHatasaPage />} >
         <Route index element={<ThnihaHatasaInfoPage />} />
         <Route path="video" element={<ThnihaHatasaVideoPage />} />
+        <Route path="yizkor" element={<ThnihaHatasaYizkorPage />} />
       </Route>
       <Route path="haspaka-hatasa" element={<HaspakaHatasaPage />}>
         <Route index element={<HaspakaHatasaInfoPage />} />
