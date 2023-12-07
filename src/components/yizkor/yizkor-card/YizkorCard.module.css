@@ -1,15 +1,11 @@
 .yizkor-card-container {
-    
     flex-basis: 30%;
     margin: 15px 0;
     perspective: 50px;
     background-image: url("../../../assets/Yizkor2.gif");
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; */
     background-size: cover;
-    /* background-size: 100% 100%; */
-    /* background: linear-gradient(#d6b0b0, #9198e5); */
 }
 .yizkor-card {
     

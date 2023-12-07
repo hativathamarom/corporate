@@ -1,7 +1,4 @@
 
-.header {
-}
-
 .nav-container {
     width: 85%;
     position: fixed;
@@ -10,6 +7,30 @@
 
 .image-slider-container {
     padding-top: 74px;
+}
+
+.about-maraom-title {
+    padding: 0 20px;
+    color: white;
+    background-color: #202020;
+    text-shadow: 3px 3px 0px #787878;
+}
+
+.about-maraom-title h1 {
+    margin: 0;
+    line-height: 60px;
+    font-size: 5rem;
+}
+
+.about-maraom-title h3 {
+    margin: 0;
+    padding: 0 35px;
+    line-height: 60px;
+    font-size: 3rem;
+}
+
+.about-maraom-title span:nth-child(2) {
+    color: #dc3f41;
 }
 
 .article {
@@ -25,9 +46,12 @@
     text-decoration: underline;
 }
 
-
 @media screen and (max-width: 600px) {
     .nav-container {
         width: 100%;
+    }
+
+    .about-maraom-title {
+        font-size: 3rem;
     }
 }

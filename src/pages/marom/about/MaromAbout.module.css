@@ -1,3 +1,10 @@
+.about-maraom-container {
+
+
+}
+
+
+
 .about-maraom-container p,
 .about-maraom-container li {
     font-size: 1.15rem;
@@ -6,24 +13,6 @@
     text-align: justify;
     cursor: default;
 }
-
-
-.about-maraom-title {
-    font-size: 5rem;
-    font-weight: 900;
-    color: red;
-    /* background: -webkit-linear-gradient(-45deg, #fe5858, #e93535, #ee7752, #e73c7e); */
-    /* background-size: 400% 400%; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    text-shadow: 5px 5px 10px rgb(0, 0, 0);
-    animation: gradient 10s ease infinite;
-}
-
-/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-/* background-size: 400% 400%; */
-/* animation: gradient 15s ease infinite; */
-
 
 @keyframes gradient {
     0% {
@@ -42,18 +31,9 @@
 .unit-list {
     margin: 0;
     padding: 5px 0;
-    /* padding-right: 0.5rem; */
     list-style-type: none;
 }
 
 .unit-list li:hover {
     color: goldenrod;
-}
-
-
-
-@media screen and (max-width: 600px) {
-    .about-maraom-title {
-        font-size: 3rem;
-    }
 }

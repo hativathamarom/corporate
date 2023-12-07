@@ -25,6 +25,12 @@ export default function HomePage() {
                 <div className={style["image-slider-container"]}>
                     <ImageSlider images={images} interval={5000} />
                 </div>
+                <div className={style["about-maraom-title"]}>
+                    <h1 >
+                        <span>חטיבת</span> <span>המרום</span>
+                    </h1>
+                    <h3>פתרונות מבצעיים</h3>
+                </div>
             </header>
             <section className={style["section"]} ref={aboutRef} >
                 <article className={style["article"]}>
