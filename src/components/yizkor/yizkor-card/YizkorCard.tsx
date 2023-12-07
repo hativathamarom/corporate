@@ -57,9 +57,9 @@ export default function YizkorCard(props: YizkorCardProps) {
                         <div>
                             <h1>{props.name}</h1>
                         </div>
-                        <div>
+                        {/* <div>
                             <img className={style["yizkor-gif"]} src={yizkorGif} alt="" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <hr />
