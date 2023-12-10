@@ -36,7 +36,8 @@ import OketzYizkorPage from "./pages/oketz/yizkor/OketzYizkorPage";
 import ThnihaHatasaYizkorPage from "./pages/thniha-hatasa/yizkor/ThnihaHatasaYizkorPage";
 import LotarYizkorPage from "./pages/lotar/yizkor/LotarYizkorPage";
 
-
+import BalnamYizkorPage from "./pages/balnam/yizkor/BalnamYizkorPage"
+import HaspakaHatasaYizkorPage from "./pages/haspaka-hatasa/yizkor/HaspakaHatasaYizkorPage";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -56,6 +57,7 @@ const router = createHashRouter(
       <Route path="balnam" element={<BalnamPage />}>
         <Route index element={<BalnamInfoPage />} />
         <Route path="video" element={<BalnamVideoPage />} />
+        <Route path="yizkor" element={<BalnamYizkorPage />} />
       </Route>
       <Route path="bet-sefer-yeri" element={<BetSeferYeriPage />} >
         <Route index element={<BetSeferYeriInfoPage />} />
@@ -69,6 +71,7 @@ const router = createHashRouter(
       <Route path="haspaka-hatasa" element={<HaspakaHatasaPage />}>
         <Route index element={<HaspakaHatasaInfoPage />} />
         <Route path="video" element={<HaspakaHatasaVideoPage />} />
+        <Route path="yizkor" element={<HaspakaHatasaYizkorPage />} />
       </Route>
       <Route path="image" element={<MobileImageSlider/>} ></Route>
     </Route>

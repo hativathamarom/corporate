@@ -7,7 +7,8 @@ export default function HaspakaHatasaPage() {
             <PageNavigation items={[
                 { text: 'על היחידה', to: '/haspaka-hatasa' },
                 { text: 'סרטוני תדמית', to: '/haspaka-hatasa/video' },
-                { text: 'כתבות', to: '/haspaka-hatasa/articles' }
+                { text: 'כתבות', to: '/haspaka-hatasa/articles' },
+                { text: 'יזכור🕯️', to: '/haspaka-hatasa/yizkor' }
             ]} />
             <Outlet />
         </>

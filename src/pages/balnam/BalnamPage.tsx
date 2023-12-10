@@ -7,7 +7,8 @@ export default function BalnamPage() {
             <PageNavigation items={[
                 { text: 'על היחידה', to: '/balnam' },
                 { text: 'סרטוני תדמית', to: '/balnam/video' },
-                { text: 'כתבות', to: '/balnam/articles' }
+                { text: 'כתבות', to: '/balnam/articles' },
+                { text: 'יזכור🕯️', to: '/balnam/yizkor' }
             ]} />
             <Outlet />
         </>
