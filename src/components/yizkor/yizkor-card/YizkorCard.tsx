@@ -1,10 +1,9 @@
 
 import style from "./YizkorCard.module.css"
-// import yizkorGif from "../../../assets/yizkor1.gif"
 import { YizkorCardProps } from "../../../types/yizkor"
 import { useState } from "react"
-
 import useScreenSize from "../../../hooks/useScreenSize"
+import yizkor from "../../../assets/yizkor/yizkor.jpg"
 
 
 export default function YizkorCard(props: YizkorCardProps) {
@@ -48,18 +47,12 @@ export default function YizkorCard(props: YizkorCardProps) {
             >
                 <div className={style["yizkor-header"]}>
                     <div className={style["yizkor-gif-container"]}>
-                        {
-                            props.img &&
-                            <img className={style["yizkor-personal-img"]} src={props.img} alt="" />
-                        }
+                        <img className={style["yizkor-personal-img"]} src={props.img ? props.img : yizkor} alt="" />
                     </div>
                     <div className={style["yizkor-name-container"]}>
                         <div>
                             <h1>{props.name}</h1>
                         </div>
-                        {/* <div>
-                            <img className={style["yizkor-gif"]} src={yizkorGif} alt="" />
-                        </div> */}
                     </div>
                 </div>
                 <hr />

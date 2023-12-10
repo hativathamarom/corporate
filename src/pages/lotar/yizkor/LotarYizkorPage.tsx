@@ -1,14 +1,14 @@
 
-import style from "./OketzYizkorPage.module.css"
+import style from "./LotarYizkorPage.module.css"
 import YizkorCardList from "../../../components/yizkor/yizkor-card-list/YizkorCardList"
-import { oketzYizkorListData } from "./oketzYizkorListData"
+import { lotarYizkorListData } from "./lotarYizkorListData"
 
 
 export default function LotarYizkorPage() {
     return (
         <div className={style["yizkor-container"]}>
             <YizkorCardList 
-                yizkorCardList={oketzYizkorListData}
+                yizkorCardList={lotarYizkorListData}
             />
         </div>
     )

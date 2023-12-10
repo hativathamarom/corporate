@@ -34,6 +34,7 @@ import SideMenuContextProvider from "./contexts/SideMenuContext";
 import MobileImageSlider from "./components/image-slider/MobileImageSlider";
 import OketzYizkorPage from "./pages/oketz/yizkor/OketzYizkorPage";
 import ThnihaHatasaYizkorPage from "./pages/thniha-hatasa/yizkor/ThnihaHatasaYizkorPage";
+import LotarYizkorPage from "./pages/lotar/yizkor/LotarYizkorPage";
 
 
 
@@ -41,19 +42,20 @@ const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
       <Route index element={<HomePage />} />
-      <Route path="balnam" element={<BalnamPage />}>
-        <Route index element={<BalnamInfoPage />} />
-        <Route path="video" element={<BalnamVideoPage />} />
-      </Route>
-      <Route path="lotar" element={<LotarPage />}>
-        <Route index element={<LotarInfoPage />} />
-        <Route path="video" element={<LotarVideoPage />} />
-      </Route>
       <Route path="oketz" element={<OketzPage />}>
         <Route index element={<OketzInfoPage />} />
         <Route path="video" element={<OketzVideoPage />} />
         <Route path="articles" element={<OketzArticlesPage />} />
         <Route path="yizkor" element={<OketzYizkorPage />} />
+      </Route>
+      <Route path="lotar" element={<LotarPage />}>
+        <Route index element={<LotarInfoPage />} />
+        <Route path="video" element={<LotarVideoPage />} />
+        <Route path="yizkor" element={<LotarYizkorPage />} />
+      </Route>
+      <Route path="balnam" element={<BalnamPage />}>
+        <Route index element={<BalnamInfoPage />} />
+        <Route path="video" element={<BalnamVideoPage />} />
       </Route>
       <Route path="bet-sefer-yeri" element={<BetSeferYeriPage />} >
         <Route index element={<BetSeferYeriInfoPage />} />
