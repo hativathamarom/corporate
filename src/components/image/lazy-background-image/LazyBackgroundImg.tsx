@@ -18,6 +18,8 @@ export default function LazyBackgroundImg({
     const [loaded, setLoaded] = useState(false);
 
     const handleLoad = () => {
+        console.log(`finish load`);
+        
         setLoaded(true);
     };
 

@@ -1,17 +1,27 @@
 import symbol from "../../../assets/haspaka-hatasa/symbol.png"
+import LazyBackgroundImg from "../../../components/image/lazy-background-image/LazyBackgroundImg"
 import InfoSlide from "../../../components/info-slide/InfoSlide"
 import style from "./HaspakaHatasaInfoPage.module.css"
+
+import { infoData } from "./InfoData"
 
 export default function HaspakaHatasaInfoPage() {
     return (
         <div className={style["info-container"]}>
+            <LazyBackgroundImg
+                img={infoData.img}
+                compressImg={infoData.compressImg}
+                isDarkened={false}
+                style={{
+                    position: "absolute",
+                    height: "100%",
+                    width: "100%",
+                    zIndex: "-1",
+                }} >
+            </LazyBackgroundImg>
             <InfoSlide
-                title="אספקה בהיטס"
-                paragraph={`
-                    יחידת אספקה בהטס מתמחה בלוגיסטיקה והספקת משאבים קריטים לכל חלקי הצבא.
-                    היחידה מהווה חלק חיוני בתפעול ותחזוקה של מערכות הנשק והציוד ומבטיחה שהחיילים יהיו מצויידים בכל מה שנדרש למשימותיהם.
-                    היחיילים ביחידה זאת מקבלים הכשרה מקצועית על ניהול האספקה לוגיסטיקה ותיפעול משאבים תוך שימת דגש על יעילות ודיוק.
-                    השירות ביחידה מציע הזדמנות לקחת חלק בליבה הלוגיסטית של הצבא תוך תרומה עצומה לתפקוד היום יומי ולהצלחת משימות צה"ל`}
+                title={infoData.title}
+                paragraph={infoData.paragraph}
                 symbol={symbol}
             />
         </div>

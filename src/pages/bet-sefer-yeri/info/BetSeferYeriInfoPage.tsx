@@ -1,18 +1,28 @@
 import symbol from "../../../assets/bet-sefer-yeri/symbol.png"
+import LazyBackgroundImg from "../../../components/image/lazy-background-image/LazyBackgroundImg"
 import InfoSlide from "../../../components/info-slide/InfoSlide"
 import style from "./BetSeferYeriInfoPage.module.css"
+import { infoData } from "./InfoData"
 
 export default function BetSeferYeriInfoPage() {
     return (
+
         <div className={style["info-container"]}>
+            <LazyBackgroundImg
+                img={infoData.img}
+                compressImg={infoData.compressImg}
+                isDarkened={false}
+                style={{
+                    position: "absolute",
+                    height: "100%",
+                    width: "100%",
+                    zIndex: "-1",
+                }} >
+
+            </LazyBackgroundImg>
             <InfoSlide
-                title="בית ספר לירי"
-                paragraph={`
-                            בית הספר לירי הוא מוסד מקצועי ומתקדם המספק אימוני ירי ברמה גובהה לחיילים ביחידות השונות בצה"ל.
-                            התוכנית הלימודית בבית הספר כוללת את כל הבטי הירי - מהכרת סוגי נשק שונים ,טכניקות ירי מדויקות ,שליטה בנשק במצבים שונים ועד לירי תחת לחץ ובתנאי שטח משתנים.
-                            בית הספר מבצע משימה קריטית - הכשרת הלוחמים והחיילים לירי מקצועי ויעיל בכלים השונים במהלך משימות קרביות.
-                            בכל שנה עוברים בבית הספר יחידות וחיילים רבים על מנת לקבל הכשרה ולהתמקצע בירי.
-                            השתתפות בקורס \ הכשרה בבית הספר לירי מהווה הזדמנות לפתח קישורים חיונים בתחום הקרב ולהיות חלק מעמוד השדרה של הלחימה בצה"ל`}
+                title={infoData.title}
+                paragraph={infoData.paragraph}
                 symbol={symbol}
             />
         </div>

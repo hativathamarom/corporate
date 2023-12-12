@@ -1,8 +1,4 @@
 .info-container {
-    background-image: url("../../../assets/haspaka-hatasa/haspaka-hatasa1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: local;
-    background-size: cover;
     height: 90%;
+    position: relative;
 }

@@ -1,20 +1,29 @@
 import symbol from "../../../assets/thniha-hatasa/symbol.png";
 import InfoSlide from "../../../components/info-slide/InfoSlide";
 import style from "./ThnihaHatasaInfoPage.module.css"
+import { infoData } from "./InfoData";
+import LazyBackgroundImg from "../../../components/image/lazy-background-image/LazyBackgroundImg";
 
 export default function ThnihaHatasaInfoPage() {
     return (
         <div className={style["info-container"]}>
+            <LazyBackgroundImg
+                img={infoData.img}
+                compressImg={infoData.compressImg}
+                isDarkened={false}
+                style={{
+                    position: "absolute",
+                    height: "100%",
+                    width: "100%",
+                    zIndex: "-1",
+                }} >
+            </LazyBackgroundImg>
             <InfoSlide
-                title="צניחה והטסה"
-                paragraph={`
-                            יחידה הצניחה וההטסה היא יחידה דינמית ומתקדמת במתמחה במשימות מורכבות
-                            . החיילים ביחידה זו עוברים הכשרות מקיפות ומאתגרות שמטרתן להכין אותם למבצעים בתנאים משתנים
-                            . העבודה השוטפת ביחידה כוללת אימוני צניחה, ניווט אווירי והכשרות בטכניקות מיוחדות להטסה ולצניחה
-                            . השירות ביחידה זו מבטיח חוויה מעשירה ומאתגרת, עם דגש על פיתוח כישורים מקצועיים גבוהים ותחושת תרומה חשובה לביטחון המדינה.
-                `}
+                title={infoData.title}
+                paragraph={infoData.paragraph}
                 symbol={symbol}
             />
         </div>
+
     )
 }
