@@ -5,7 +5,7 @@ import image3 from "../../assets/home/images/3.jpeg"
 import image4 from "../../assets/home/images/4.jpeg"
 import image5 from "../../assets/home/images/5.jpeg"
 import style from "./HomePage.module.css"
-import ImageSlider from "../../components/image-slider/ImageSlider"
+import ImageSlider from "../../components/image/image-slider/ImageSlider"
 import MaromAbout from "./about/MaromAbout"
 import MaromNavigation from "./navigation/MaromNavigation"
 

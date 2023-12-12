@@ -31,7 +31,7 @@ import ThnihaHatasaVideoPage from "./pages/thniha-hatasa/video/ThnihaHatasaVideo
 import HaspakaHatasaInfoPage from "./pages/haspaka-hatasa/info/HaspakaHatasaInfoPage";
 import HaspakaHatasaVideoPage from "./pages/haspaka-hatasa/video/HaspakaHatasaVideoPage";
 import SideMenuContextProvider from "./contexts/SideMenuContext";
-import MobileImageSlider from "./components/image-slider/MobileImageSlider";
+import MobileImageSlider from "./components/image/image-slider/MobileImageSlider";
 import OketzYizkorPage from "./pages/oketz/yizkor/OketzYizkorPage";
 import ThnihaHatasaYizkorPage from "./pages/thniha-hatasa/yizkor/ThnihaHatasaYizkorPage";
 import LotarYizkorPage from "./pages/lotar/yizkor/LotarYizkorPage";

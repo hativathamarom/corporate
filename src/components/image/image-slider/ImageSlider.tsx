@@ -1,7 +1,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import style from "./ImageSlider.module.css"
-import { ImageSliderProps } from "../../types/image-slider"
+import { ImageSliderProps } from "../../../types/image-slider"
 import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 
 export default function ImageSlider(props: ImageSliderProps) {

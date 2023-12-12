@@ -4,11 +4,11 @@ import { v4 } from "uuid"
 import style from "./MobileImageSlider.module.css"
 
 
-import image1 from "../../assets/home/images/1.jpeg"
-import image2 from "../../assets/home/images/2.jpeg"
-import image3 from "../../assets/home/images/3.jpeg"
-import image4 from "../../assets/home/images/4.jpeg"
-import image5 from "../../assets/home/images/5.jpeg"
+import image1 from "../../../assets/home/images/1.jpeg"
+import image2 from "../../../assets/home/images/2.jpeg"
+import image3 from "../../../assets/home/images/3.jpeg"
+import image4 from "../../../assets/home/images/4.jpeg"
+import image5 from "../../../assets/home/images/5.jpeg"
 
 const images = [image1, image2, image3, image4, image5]
 let currentImage = 0
