@@ -38,6 +38,11 @@ import LotarYizkorPage from "./pages/lotar/yizkor/LotarYizkorPage";
 
 import BalnamYizkorPage from "./pages/balnam/yizkor/BalnamYizkorPage"
 import HaspakaHatasaYizkorPage from "./pages/haspaka-hatasa/yizkor/HaspakaHatasaYizkorPage";
+import LotarArticlesPage from "./pages/lotar/article/LotarArticlesPage";
+import BalnamArticlesPage from "./pages/balnam/article/BalnamArticlesPage";
+import ThnihaHatasaArticlesPage from "./pages/thniha-hatasa/article/ThnihaHatasaArticlesPage";
+import BetSeferYeriArticlesPage from "./pages/bet-sefer-yeri/article/BetSeferYeriArticlesPage";
+import HaspakaHatasaArticlesPage from "./pages/haspaka-hatasa/article/HaspakaHatasaArticlesPage";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -52,25 +57,30 @@ const router = createHashRouter(
       <Route path="lotar" element={<LotarPage />}>
         <Route index element={<LotarInfoPage />} />
         <Route path="video" element={<LotarVideoPage />} />
+        <Route path="articles" element={<LotarArticlesPage />} />
         <Route path="yizkor" element={<LotarYizkorPage />} />
       </Route>
       <Route path="balnam" element={<BalnamPage />}>
         <Route index element={<BalnamInfoPage />} />
         <Route path="video" element={<BalnamVideoPage />} />
+        <Route path="articles" element={<BalnamArticlesPage />} />
         <Route path="yizkor" element={<BalnamYizkorPage />} />
       </Route>
       <Route path="bet-sefer-yeri" element={<BetSeferYeriPage />} >
         <Route index element={<BetSeferYeriInfoPage />} />
         <Route path="video" element={<BetSeferYeriVideoPage />} />
+        <Route path="articles" element={<BetSeferYeriArticlesPage />} />
       </Route>
       <Route path="thniha-hatasa" element={<ThnihaHatasaPage />} >
         <Route index element={<ThnihaHatasaInfoPage />} />
         <Route path="video" element={<ThnihaHatasaVideoPage />} />
+        <Route path="articles" element={<ThnihaHatasaArticlesPage />} />
         <Route path="yizkor" element={<ThnihaHatasaYizkorPage />} />
       </Route>
       <Route path="haspaka-hatasa" element={<HaspakaHatasaPage />}>
         <Route index element={<HaspakaHatasaInfoPage />} />
         <Route path="video" element={<HaspakaHatasaVideoPage />} />
+        <Route path="articles" element={<HaspakaHatasaArticlesPage />} />
         <Route path="yizkor" element={<HaspakaHatasaYizkorPage />} />
       </Route>
       <Route path="image" element={<MobileImageSlider/>} ></Route>
