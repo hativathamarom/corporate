@@ -1,4 +1,4 @@
-export const oketzInfoData = {
+export const infoData = {
 
     title: `עוקץ`
     ,
