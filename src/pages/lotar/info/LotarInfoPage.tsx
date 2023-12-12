@@ -2,7 +2,6 @@
 import symbol from "../../../assets/lotar/lotar-symbol.png"
 import InfoSlide from "../../../components/info-slide/InfoSlide"
 import LazyBackgroundImg from "../../../components/image/lazy-background-image/LazyBackgroundImg"
-import image from "../../../assets/lotar/lotar1.webp"
 import style from "./LotarInfoPage.module.css"
 
 import { infoData } from "./infoData"
