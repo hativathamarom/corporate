@@ -14,11 +14,10 @@
 
 .info {
     width: 40%;
-}
-
-.info {
     color: rgb(185, 184, 184);
-    background: linear-gradient(#000000ce, #373737de);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    /* background: linear-gradient(#000000ce, #373737de); */
 }
 
 .info img {
