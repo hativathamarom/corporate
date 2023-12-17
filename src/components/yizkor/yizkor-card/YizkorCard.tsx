@@ -60,9 +60,9 @@ export default function YizkorCard(props: YizkorCardProps) {
                 </div>
                 <hr />
                 <div className={style["yizkor-main"]}>
-                    <p><span>תפקיד:</span> {props.role} </p>
-                    <p><span>רקע צבאי:</span> {props.militaryBackground} </p>
-                    <p><span>תאריך נפילה:</span> {props.fallDate} </p>
+                    <p> <span>תפקיד:</span> {props.role} </p>
+                    <p> <span>רקע צבאי:</span> {props.militaryBackground} </p>
+                    <p> <span>תאריך נפילה:</span> {props.fallDate} </p>
                 </div>
             </div>
         </div>
