@@ -14,3 +14,36 @@
 .menu-link:hover {
     color: whitesmoke;
 }
+
+.menu-item-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes arrow {
+    0% {left: 0}
+    50% {left: 30px}
+    100% {left: 0}
+}
+
+.menu-item-arrow-on {
+    visibility: visible;
+}
+
+.menu-item-arrow-off {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 600px) {
+    .menu-item-arrow-on {
+        position: relative;
+        animation: arrow 1.5s both infinite;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-item-arrow-on {
+        visibility: hidden;
+    }
+}

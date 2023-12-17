@@ -6,24 +6,23 @@ import { useContext, useState } from "react";
 import { SideMenuContext } from "../../contexts/SideMenuContext";
 
 export default function MenuItem(props: MenuItemProps) {
-    
+
     const sideMenuContext = useContext(SideMenuContext)
 
-    const [isMouseEnter ,setIsMouseEnter] = useState(false)
-    
+    const [isMouseEnter, setIsMouseEnter] = useState(false)
+
     return (
         <NavLink
             className={`${style["menu-link"]}`}
             to={props.path}
-            onMouseEnter={()=> setIsMouseEnter(true)}
-            onMouseLeave={()=> setIsMouseEnter(false)}
-            onClick={()=>{sideMenuContext?.setIsOpen(false)}}
+            onMouseEnter={() => setIsMouseEnter(true)}
+            onMouseLeave={() => setIsMouseEnter(false)}
+            onClick={() => { sideMenuContext?.setIsOpen(false) }}
         >
-            <div> {props.alias} </div>
-            {
-                isMouseEnter && <div> <IoIosArrowBack /> </div>
-            }
-            
+            <div>{props.alias}</div>
+            <div className={`${style["menu-item-arrow"]} ${isMouseEnter ? style["menu-item-arrow-on"] : style["menu-item-arrow-off"]}`}>
+                <IoIosArrowBack />
+            </div>
         </NavLink>
     )
 }

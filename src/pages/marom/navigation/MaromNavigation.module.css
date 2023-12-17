@@ -27,14 +27,40 @@
     color: hsla(0, 0%, 63%, 1);
 }
 
-.menu-link div{
+.menu-link div {
     margin: auto;
     padding: 0 10px;
 }
 
+.menu-link-container::before {
+    content: '';
+    display: block;
+    width: 0%;
+    border-top: 1px solid white;
+}
+
+
+
+@keyframes top-navigation {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .menu-link-container:hover::before {
+        animation: top-navigation 0.5s both;
+    }
+}
+
+
 
 @media screen and (max-width: 600px) {
-    .home-page-nav .side-menu{
+    .home-page-nav .side-menu {
         visibility: visible;
     }
 }

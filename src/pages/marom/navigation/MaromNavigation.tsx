@@ -24,10 +24,10 @@ export default function MaromNavigation(props: MaromNavigationProps) {
                         </span>
                     </div>
                     <div className={style["menu-link"]}>
-                        <div>
+                        <div className={style["menu-link-container"]}>
                             <Anchor yoffset={-50} linkRef={props.aboutRef} text="על החטיבה" />
                         </div>
-                        <div>
+                        <div className={style["menu-link-container"]}>
                             <Anchor yoffset={-50} linkRef={props.commanderPageRef} text="דף מפקד" />
                         </div>
                     </div>

@@ -12,23 +12,21 @@ export default function PageNavigation(props: PageMenuProps) {
 
     return (
         <nav className={style["page-navigation"]}>
-            <div className={style["side-menu"]}>
-                    <RxHamburgerMenu
-                        size={'30px'}
-                        onClick={() => { sideMenuContext?.setIsOpen(true) }}
-                    />
+            <div className={style["menu"]}>
+                <RxHamburgerMenu
+                    size={'30px'}
+                    onClick={() => { sideMenuContext?.setIsOpen(true) }}
+                />
             </div>
-            <div className={style["side-menu-items"]}>
+            <div className={style["menu-items"]}>
                 {
                     props.items.map(item => {
                         return (
-                            <NavLink
-                                key={v4()}
-                                to={item.to}
-                                end
-                            >
-                                {item.text}
-                            </NavLink>
+                            <div key={v4()} className={style["menu-item"]}>
+                                <NavLink to={item.to} end>
+                                    {item.text}
+                                </NavLink>
+                            </div>
                         )
                     })
                 }
