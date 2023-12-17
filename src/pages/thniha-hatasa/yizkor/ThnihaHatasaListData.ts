@@ -1,6 +1,7 @@
 export const thnihaHatasaListData = [
     {
         name:`דן פארן`,
+        rank:``,
         role:`חייל מרפאה`,
         militaryBackground:`ב19/11/2009 התנדב לצה״ל ושובץ ביחידה 669, לאחר מכן עבר למפח״ט מרום. היה מיועד לצאת לקורס חובשים.`,
         fallDate:`ד׳ בחשוון תשע״א 12/10/2010`,
@@ -8,6 +9,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`ולדיסלב כהנוב`,
+        rank:``,
         role:`מש״ק לוגיסטיקה`,
         militaryBackground:`הוצב בחיל הלוגיסטיקה ושירת במרא"ה (מרכז ארגון הטסה) כנהג משאית נשק.`,
         fallDate:`ל׳ בסיוון תשס״ד 19/6/2004`,
@@ -15,6 +17,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`זאב (זאבי) אליהו`,
+        rank:``,
         role:`רס״ר מטבח`,
         militaryBackground:`בפברואר 1983 התגייס זאב לצה״ל בתפקיד משגיח כשרות. בתחילת דרכו כאיש קבע עבד כטבח ומשגיח כשרות והמשיך את דרכו במטבח.`,
         fallDate:`י׳ בטבת תשס״ג 15/12/2002`,
@@ -22,6 +25,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`שי מנדה`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`עבר טירונות וקורס מ״כים במתקן אדם, וב20/2/2000 החל קורס מד״צים. שי בלט והצטיין בכל שלבי הקורס.`,
         fallDate:`א׳ בניסן תש״ס 6/4/2000`,
@@ -29,6 +33,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`שמעון (סימון) אוחיון`,
+        rank:``,
         role:`טבח`,
         militaryBackground:`שירת כנהג וכטבח בחיל התחזוקה, ולאחר מכן הוצב כטבח בביה״ס לצניחה`,
         fallDate:`כ״ח בשבט תשנ״ד 9/2/1994`,
@@ -36,6 +41,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אורן צבי יהושע`,
+        rank:``,
         role:`מחסנאי`,
         militaryBackground:`ויס בחודש נובמבר 1990 לשירות חובה בצה״ל. יצא לטירונות, עמד בהצלחה במשימות החדשות ובמסגרת הקשה והוצב בחיל האוויר. הוא נשלח לקורס כיבוי אש והוצב לשרת בבסיס חיל האוויר תל נוף.`,
         fallDate:`י״ט בניסן תשנ״ב 22/4/1992`,
@@ -43,6 +49,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יצחק קאקיאשוילי`,
+        rank:``,
         role:`טבח`,
         militaryBackground:`באמצע נובמבר 1990 גויס לצה״ל ושובץ לחיל התחזוקה. הוא סופח לביה״ס לצניחה לעבודות שירות כאחראי מטבח.`,
         fallDate:`א׳ באייר תשנ״ב 3/5/1992`,
@@ -50,6 +57,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אמנון דותן דייכס`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`סיים קורס מדריכי צניחה ושימש בתפקיד זה בכל תקופת שירותו. עם תום שירותו הסדיר התנדב לשירות קבע לתקופה של שלוש שנים. לאחר שחרורו נקרא לתקופות לשירות מילואים.`,
         fallDate:`ביום א׳ בכסלו תשנ״ב 7/11/1991`,
@@ -57,6 +65,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`שלמה מלכה`,
+        rank:``,
         role:`מש״ק לוגיסטיקה`,
         militaryBackground:`הוצב בחיל התחזוקה. לאחר מכן הוצב בחיל השיריון ב תפקיד מכונאי טנקים. כעבור שנה לערך השתלם בקורס מש״קי תחזוקה`,
         fallDate:`ט״ו באלול תש״ן 5/9/1990`,
@@ -64,6 +73,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אהוד יוסף`,
+        rank:``,
         role:`סמן`,
         militaryBackground:`גויס לשירות חובה בצה״ל בפברואר 1988 ועבר ליחידת הסמנים שבבית הספר לצניחה.`,
         fallDate:`י״ח בתמוז תש״ן 11/7/1990`,
@@ -71,6 +81,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`רבקה חדאד`,
+        rank:``,
         role:`מאחזות מצנחים`,
         militaryBackground:`באוגוסט 1989 גויסה ריקי לשירות חובה בצהל ונשלחה לקורס מקפלות מצנחים`,
         fallDate:`י״ג בסיוון תש״ן 6/6/1990`,
@@ -78,6 +89,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`הרצל אשר`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`הוצב בחיל הרגלים בחטיבת גולני. לאחר הטירונות עבר קורס מ״כים חי״ר. אחרי כן הוא עבר קורס צניחה וקורס מדריכי צניחה, והיה למדריך צניחה.`,
         fallDate:`ביום ט׳ בטבת תשמ״א 16/12/1980`,
@@ -85,6 +97,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`שרה זבולוני`,
+        rank:``,
         role:`אורזת אפסניה`,
         militaryBackground:`התגייסה ב28 בנובמבר 1977. לאחר הטירונות עברה קורס אריזת מצנחים ובעקבותיו היתה למאחזקת מצנחים.`,
         fallDate:`ד׳ בתשרי תשל״ט 5/10/1978`,
@@ -92,6 +105,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`נחמיה אברהם`,
+        rank:``,
         role:`סמן`,
         militaryBackground:`בתחילת אוגוסט 1976 גויס לחיל הרגלים והוצב ביחידת ׳מרכז ארגון הטסה׳.`,
         fallDate:`ה' באב תשל"ח 08/08/1978`,
@@ -99,6 +113,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`גרשון (גרי) טל טווילי`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`גויס לצה״ל בפברואר 1968 והוצב לחיל הרגלים. לאחר הטירונות השתלם בקורס מ״כים, בקורס מש״קי חבלה ובקורס מדריכי צניחה.`,
         fallDate:`ג׳ בשבט תשל״ח 11/1/1978`,
@@ -106,6 +121,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`נסים מרדו`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`בשנת 1970 נשלח לקורס מדריכי צניחה ולאחר שסיים בהצלחה רבה החל לעסוק בהדרכה בביה״ס לצניחה`,
         fallDate:`י"ז באב תשל"ז 01/08/1977`,
@@ -113,6 +129,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`מנחם הגר`,
+        rank:``,
         role:`חובש`,
         militaryBackground:`התגייס ליחידה קרבית והתנדב לגולני. עבר קורס חובשים והועסק כחובש קרבי. בגלל פציעה הורד הפרופיל הרפואי שלו והוא הועבר לחיל הרפואה. שובץ כחובש בביה״ס לצניחה.`,
         fallDate:`י״ז בתמוז תשל״ז 1/7/1977`,
@@ -120,13 +137,15 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יחזקאל (איזי) קלי`,
+        rank:``,
         role:`טבח`,
-        militaryBackground:`גויס לצה״ל באמצע מאי 1966 והוצב לחיל הצנחנים. לאחר שעבר קורס טבחים הועבר לביה״ס לצניחה ושם עשה את שירותו הצבאי.`,
+        militaryBackground:`גויס לצה״ל באמצע מאי 1966 והוצב לחיל הצנחנים. לאחר שעבר קורס טבחים הועבר לביה״ס לצניחה ושם עשה את שירותו הצבאי`,
         fallDate:`י׳ באייר תשל״ו 10/5/1976`,
         img:`data:image/jpeg;base64,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`
     },
     {
         name:`רחל יוסף`,
+        rank:``,
         role:`חובשת`,
         militaryBackground:`גויסה לצה״ל בתחילת דצמבר 1974. עם סיום הטירונות הוצבה רחל לבית ספר לצניחה כמקפלת מצנחים. את הקורס סיימה בהצטיינות, וכאשר היו זקוקים לחובשת ביחידה פנו אליה.`,
         fallDate:`ט״ו בחשוון תשל״ו 20/10/1975`,
@@ -134,6 +153,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יעקב אלסידווי`,
+        rank:``,
         role:`נהג`,
         militaryBackground:`בנובמבר 1973 גויס לצה״ל. לאחר הטירונות הוכשר כנהג משאית, ויועד לעסוק במקצוע זה ביחידת בית הספר לצניחה ולהטסה`,
         fallDate:`ט״ו באדר תשל״ה 26/2/1975`,
@@ -141,6 +161,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יוסף יוסף`,
+        rank:``,
         role:`נהג`,
         militaryBackground:`גויס לחיל הרגלים ושירת בחטיבת גולני. לאחר שהסתיימה מלחמת יום הכיפורים הועבר ליחידה עורפית ושימש בה כנהג.`,
         fallDate:`ג׳ באלול תשל״ד 21/8/1974`,
@@ -148,6 +169,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אריה טוביה טוביאס`,
+        rank:``,
         role:`סגן מפקד ביה״ס לצניחה`,
         militaryBackground:`ביוני 1949 הצטרף לצבא הקבע והיה במי מקימי יחידות הצנחנים. במבצע ״קדש״ היה בין חיילי הגדוד בצהל במיתלה כסגנו של רפול. סגן מפקד ביה״ס לצניחה וללוחמה זעירה.`,
         fallDate:`כ״ח בחשוון תשל״ג 5/11/1972`,
@@ -155,6 +177,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`רוני גרינברגר`,
+        rank:``,
         role:`אורז אפסניה`,
         militaryBackground:`התגייס לצה״ל בתחילת מאי 1971 והתנדב לשרת בחיל הצנחנים.`,
         fallDate:`י״ז בתשרי תשל״ג 24/9/1972`,
@@ -162,6 +185,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אשר אבו עזיז`,
+        rank:``,
         role:`סמן`,
         militaryBackground:`גויס לצה״ל בנובמבר 1958 והצטרף לחיל הצנחנים.`,
         fallDate:`ל׳ בניסן תשל״ב, 14/4/1972`,
@@ -169,6 +193,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`פרידה נפתלי`,
+        rank:``,
         role:`שרטטת בנין`,
         militaryBackground:`גויסה לצה״ל במחצית אוגוסט 1970`,
         fallDate:`י״ד בכסלו תשל״ב 1/12/1971`,
@@ -176,6 +201,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`זאב דהן`,
+        rank:``,
         role:`מפעיל רדיו`,
         militaryBackground:`במחצית פברואר 1970 גויס לצה״ל והוצב בחיל התקשוב.`,
         fallDate:`י״ד בכסלו תשל״ב 1/12/1971`,
@@ -183,6 +209,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`בנימין (בני) גמעי`,
+        rank:``,
         role:`נהג משא`,
         militaryBackground:`גויס לצה"ל באוגוסט 1969 ונתקבל לבית הספר לצניחה. רוח ההתנדבות פעמה בו תמיד והיה מבצע בנאמנות ובמסירות כל משימה שהוטלה עליו. מפקדיו אהבוהו בשל דרכו הפשוטה ותום לבו.`,
         fallDate:`כ״א בתמוז תשל״א 13/7/1971`,
@@ -190,6 +217,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`מזל (מזלוצ׳ה) חכים`,
+        rank:``,
         role:`מאחזות מצנחים`,
         militaryBackground:`גויסה לצה״ח במחצית פברואר 1970. שירתה שנה וחצי כמקפלת מצנחים.`,
         fallDate:`כ״א באב תש״ל 23/8/1970`,
@@ -197,6 +225,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`שמואל הררי`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`גויס לצה״ל באוקטובר 1966, התנדב לשרת בחיל הצנחנים. בתקופת שירותו בצה״ל לחם במלחמת ששת הימים ואחריה`,
         fallDate:`11/8/1970`,
@@ -204,6 +233,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יוסף עמיר`,
+        rank:``,
         role:`מ״כ רובאי`,
         militaryBackground:`התגייס בתחילת אוגוסט 1959 והתנדב לשרת בחיל הצנחנים. בשנת 1962 סיים את שירותו הסדיר כסמל מצטיין.`,
         fallDate:`כ״ו באדר א׳ תש״ל 4/3/1970`,
@@ -211,6 +241,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`מרדכי טל טלמון`,
+        rank:``,
         role:`מפקד ענף צניחה`,
         militaryBackground:`גויס לצה״ל ביולי 1951 והתנדב לשרת בחיל הצנחנים. שנתיים לאחר שחרורו, נקרא - כאיש מילואים להשתתף בפעולת תגמול. אחרי פעולה זו הוצע לו להצטרף כמדריך צניחה בו התמחה בתחום חדש: ״צניחה חופשית״.`,
         fallDate:`חמישה עשר בשבט תש״ל 22/1/1970`,
@@ -218,6 +249,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יוסף עוזר`,
+        rank:``,
         role:`סמן`,
         militaryBackground:`גויס לצה״ל בפברואר 1964`,
         fallDate:`כ״א באדר תשכ״ח 21/3/1968`,
@@ -225,6 +257,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`גיורא חפץ`,
+        rank:``,
         role:`סמן`,
         militaryBackground:`גויס לצה״ל בנובמבר 1959`,
         fallDate:`כ״א באדר תשכ״ח 21/3/1968`,
@@ -232,6 +265,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`עמי (פואד) בן דויד`,
+        rank:``,
         role:`מאחזק מצנחים`,
         militaryBackground:`ביוני 1953 גויס לצה״ל והתנדב לחיל הצנחנים. בפרוץ מלחמת ששת הימים נקרא למילואים  - וכתום המלחמה חזר אל ביתו. בפברואר 1968 נקרא שוב לדגל ועל אף מחלתו יצא.`,
         fallDate:`י׳ בשבט תשכ״ח 9/2/1968`,
@@ -239,6 +273,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`רפאל יוסף (רפי) אידלמן`,
+        rank:``,
         role:`מ״כ רובאי`,
         militaryBackground:`בנובמבר 1964 גויס לצה״ל. השתתף במלחמת ששת הימים בקרב לכבישת ראס סודר שבסיני.`,
         fallDate:`א׳ בסיוון תשכ״ז 9/6/1967`,
@@ -246,6 +281,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`יעקב שילה`,
+        rank:``,
         role:`קמב״ץ`,
         militaryBackground:`עבר קורס מדריכי צניחה ונשלח לחו״ל כדי להשתלם שם בבית ספר לצניחה. לאחר מכן יצא קצונה ושימש כשליש בביה״ס לצניחה. הוא שירת כקמ״ן בחטיבת שיריון עד יומו האחרון ובמלחמת ששת הימים נלחם בקרבות שכם`,
         fallDate:`כ״ח באייר תשכ״ז 7/6/1967`,
@@ -253,6 +289,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`מיכאל (מיכה) צוקרקנדל`,
+        rank:``,
         role:`מדריך צניחה`,
         militaryBackground:`בנובמבר 1964 גויס לצה״ל והתנדב ליחידת ביה״ס לצניחה`,
         fallDate:`כ״ח בטבת תשכ״ו 19/1/1966`,
@@ -260,6 +297,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אפרים ענבל מרקוס`,
+        rank:``,
         role:`מפקד ביה״ס לצניחה`,
         militaryBackground:`היה מ״פ בקורס קצינים ונחשב לאחד מבחירי המפקדים בחיל הצנחנים. בתקופה האחרונה בחייו היה מפקד ביה״ס לצניחה.`,
         fallDate:`ו׳ בתמוז תשכ״ג 27/6/1963`,
@@ -267,6 +305,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אדם פדרגרין`,
+        rank:``,
         role:`רופא ראשי`,
         militaryBackground:`למד רפואה בבית-הספר לרפואה של האוניברסיטה העברית בירושלים. עם סיום לימודיו החל בשירותו הסדיר בצה"ל ואחריו הצטרף לצבא-הקבע, הגיע לדרגת סרן וכיהן כרופא ראשי ביחידת-הצנחנים.`,
         fallDate:`נפילה: ג' באב תשכ"ב 3/8/1962`,
@@ -274,6 +313,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`פנינה מטרני`,
+        rank:``,
         role:`מקפלת מצנחים`,
         militaryBackground:`התגייסה בספטמבר 1956 והתנדבה לתפקיד מקפלת מצנחים.`,
         fallDate:`י״ד בחשוון תשי״ח 8/11/1957`,
@@ -281,6 +321,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`צבי (אוטו) פרידלנדר`,
+        rank:``,
         role:`צנחן`,
         militaryBackground:`עלה לארץ בשנת 1946. היה חבר ה"הגנה" מאז בואו לארץ. היה בין ראשוני הצנחנים בצה"ל.`,
         fallDate:`כ״ג בחשוון תש״י 15/11/1949`,
@@ -288,6 +329,7 @@ export const thnihaHatasaListData = [
     },
     {
         name:`אליעזר שלומוביץ`,
+        rank:``,
         role:`עשה מקצוע זמני`,
         militaryBackground:`בשנת 1948 מייד לעלותו גויס לצה״ל לחטיבת גולני.`,
         fallDate:`כ״ו בחשוון תש״י 15/11/1949`,

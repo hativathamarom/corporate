@@ -1,6 +1,7 @@
 export const lotarYizkorListData = [
     {
         name: `שגיא גולן`,
+        rank:``,
         role: `-`,
         militaryBackground: `-`,
         fallDate: `כ"ג בתשרי תשפ"ד 8/10/2023`,
@@ -8,6 +9,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `אלי גינסברג`,
+        rank:``,
         role: `מפקד ביה״ס ללוט״ר`,
         militaryBackground: `ביום 27/3/2001 התגייס לצה"ל ושירת בחיל הים`,
         fallDate: `כ"ג בתשרי תשפ"ד 8/10/2023`,
@@ -15,6 +17,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `עמרי בלקין`,
+        rank:``,
         role: `לוחם`,
         militaryBackground: `ביום 9/4/2018 התגייס לצה"ל ושירת בחיל רגלים`,
         fallDate: `כ"ב בתשרי תשפ"ד 7/10/2023`,
@@ -22,6 +25,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `רועי נגרי`,
+        rank:``,
         role: `לוחם`,
         militaryBackground: `-`,
         fallDate: `כ"ב בתשרי תשפ"ד 7/10/2023`,
@@ -29,6 +33,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `בן רובינשטיין`,
+        rank:``,
         role: `לוחם`,
         militaryBackground: `-`,
         fallDate: `כ"ב בתשרי תשפ"ד 7/10/2023`,
@@ -36,6 +41,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `דן פרחי מכלוף`,
+        rank:``,
         role: `מש״ק קליעה`,
         militaryBackground: `-`,
         fallDate: `ט״ו בתשרי התשס״ו 19/10/2005`,
@@ -43,6 +49,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `פרץ נגר`,
+        rank:``,
         role: `סגן מפקד בית הספר לקל״ץ`,
         militaryBackground: `בפברואר 1986 גויס לצה״ל ושירת בחטיבת גבעתי בגדוד ׳שקד׳. בשנת 1993 עזב את גבעתי והמשיך בשירותו בבית הספר ללוחמה בטרור כרס״ר, כמ״פ מפקדה וכקצין ניהול.`,
         fallDate: `י״ז באדר א׳ תשס״ג 19/2/2003`,
@@ -50,6 +57,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `אופיר (סאני) חזן`,
+        rank:``,
         role: `מש״ק לוט״ר`,
         militaryBackground: `התגייס לצה״ל והתנדב לשייטת של חיל הים ושירת ביחידה שנה לערך. במסגרת שירותו עבר קורס צניחה וקורס לנשק מסייע. אח״כ התנדב לקורס מש״קים ללוחמה בטרור.`,
         fallDate: `י״ט בשבט תשנ״ב 23/1/1992`,
@@ -57,6 +65,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `אמיר שבי`,
+        rank:``,
         role: `נהג`,
         militaryBackground: `שובץ לשרת כנהג משאית בבית הספר ללוט״ר של חיל התחזוקה.`,
         fallDate: `כ״ו בכסלו תשנ״ב 3/12/1991`,
@@ -64,6 +73,7 @@ export const lotarYizkorListData = [
     },
     {
         name: `ארז נאמן`,
+        rank:``,
         role: `מפקד קורס צלפים`,
         militaryBackground: `התנדב לחיל הצנחנים, הוצב מטעם החיל בענף הצלפים, בתפקיד מפקד קורס צלפים.`,
         fallDate: `ה׳ בחשוון תשמ״ד 12/10/1983`,
