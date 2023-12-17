@@ -30,11 +30,13 @@
 .yizkor-name-container {
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .yizkor-name-container div {
-    margin: auto;
+    /* margin: auto 0; */
+    margin: 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;

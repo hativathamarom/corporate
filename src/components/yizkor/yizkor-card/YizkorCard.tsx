@@ -51,7 +51,10 @@ export default function YizkorCard(props: YizkorCardProps) {
                     </div>
                     <div className={style["yizkor-name-container"]}>
                         <div>
-                            <h1>{props.name}</h1>
+                            <span> {props.rank} </span>
+                        </div>
+                        <div>
+                            <h1> {props.name} </h1>
                         </div>
                     </div>
                 </div>

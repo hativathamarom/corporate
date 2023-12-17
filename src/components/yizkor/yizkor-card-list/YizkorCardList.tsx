@@ -12,6 +12,7 @@ export default function YizkorCardList(props: YizkorCardListProps) {
                     return (
                         <YizkorCard
                             key={v4()}
+                            rank={item.rank}
                             name={item.name}
                             role={item.role}
                             militaryBackground={item.militaryBackground}
