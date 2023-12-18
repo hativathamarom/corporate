@@ -3,5 +3,18 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
+}
+
+.yizkor-card-search {
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.yizkor-card-search input {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.6);
 }
