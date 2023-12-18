@@ -1,7 +1,7 @@
 export const haspakaHatasaYizkorListData = [
     {
         name: `אטאלה-טליה נגאש`,
-        rank:``,
+        rank:`טוראי`,
         role: `מקפלת מצנחים`,
         militaryBackground: `התגייסה במאי 2015, סיימה את הטירונות בהצלחה והחלה את שירותה הסדיר בבסיס בדרום הארץ.`,
         fallDate: `י״א בתשרי תשע״ו 24/9/2015`,
@@ -9,7 +9,7 @@ export const haspakaHatasaYizkorListData = [
     },
     {
         name: `שירי הורוביץ`,
-        rank:``,
+        rank:`סמל`,
         role: `גרפיקאית`,
         militaryBackground: `גויסה לצה״ל בסוף נובמבר 1970.`,
         fallDate: `י״ד בכסלו תשל״ב 1/12/1971`,
