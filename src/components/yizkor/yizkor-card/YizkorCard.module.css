@@ -34,6 +34,10 @@
     align-items: center;
 }
 
+.yizkor-name {
+    font-size: 0.9rem;
+}
+
 .yizkor-name-container div {
     margin: 0 5px ;
     display: flex;

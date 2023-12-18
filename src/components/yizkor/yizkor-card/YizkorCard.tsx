@@ -53,8 +53,11 @@ export default function YizkorCard(props: YizkorCardProps) {
                         <div>
                             <span> {props.rank} </span>
                         </div>
-                        <div>
+                        <div className={style["yizkor-name"]}>
                             <h1> {props.name} </h1>
+                        </div>
+                        <div>
+                            <span> ז"ל </span>
                         </div>
                     </div>
                 </div>
