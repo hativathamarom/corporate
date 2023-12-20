@@ -1,31 +1,28 @@
-.about-maraom-container {
-
-
+.about-maraom-container { 
+    cursor: default;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    padding: 2rem;
 }
 
-
+.about-maraom-title {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#fff; 
+    text-shadow:-1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,1px 1px 0 #000;
+}
 
 .about-maraom-container p,
 .about-maraom-container li {
     font-size: 1.15rem;
     font-weight: 600;
-    color: #868e96;
+    color: #18191a;
     text-align: justify;
-    cursor: default;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+    
 }
 
 .unit-list {

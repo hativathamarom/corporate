@@ -9,33 +9,22 @@
     padding-top: 74px;
 }
 
-.about-maraom-title {
-    padding: 0 20px;
-    color: white;
-    background-color: #202020;
-    text-shadow: 3px 3px 0px #787878;
+.marom-page-content {
+    background: linear-gradient(-45deg, #ffffff, #785d5f, #f6536c);
+    /* background: linear-gradient(-45deg, #DC2424, #373942); */
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
 }
 
-.about-maraom-title h1 {
-    margin: 0;
-    line-height: 60px;
-    font-size: 5rem;
-}
-
-.about-maraom-title h3 {
-    margin: 0;
-    padding: 0 35px;
-    line-height: 60px;
-    font-size: 3rem;
-}
-
-.about-maraom-title span:nth-child(2) {
-    color: #dc3f41;
+.section {
+    display: flex;
+    justify-content: center;
 }
 
 .article {
+    flex-basis: 80%;
     font-size: large;
-    padding: 2rem 3rem;
+    padding: 2rem 0;
 }
 
 .article p{
@@ -44,6 +33,18 @@
 
 .gole {
     text-decoration: underline;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @media screen and (max-width: 600px) {

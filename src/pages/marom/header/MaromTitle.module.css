@@ -1,0 +1,34 @@
+.maraom-title {
+    padding: 25px ;
+    color: white;
+    background-color: #202020;
+    text-shadow: 3px 3px 0px #787878;
+    text-align: center;
+}
+
+.maraom-title h1 {
+    margin: 0;
+    line-height: 60px;
+    font-size: 5rem;
+}
+
+.maraom-title h3 {
+    margin: 0;
+    padding: 0 35px;
+    line-height: 60px;
+    font-size: 3rem;
+}
+
+.maraom-title span:nth-child(2) {
+    color: #dc3f41;
+}
+
+
+@media screen and (max-width: 600px ) {
+    .maraom-title h1  {
+        font-size: 3rem;
+    }
+    .maraom-title h3 {
+        font-size: 2rem;
+    }
+}
