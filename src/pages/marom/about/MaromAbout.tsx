@@ -3,7 +3,7 @@ import style from "./MaromAbout.module.css"
 
 export default function AboutMarom() {
     return (
-        <div className={style["about-maraom-container"]}>
+        <>
             <h1 className={style["about-maraom-title"]}>על החטיבה</h1>
             <div>
                 <p>
@@ -23,6 +23,6 @@ export default function AboutMarom() {
                     יחידות החטיבה פועלות בשיתוף פעולה על מנת לספק מענה הדרכתי ומבצעי וולמקסם את יכולותיה.
                 </p>
             </div>
-        </div>
+        </>
     )
 }

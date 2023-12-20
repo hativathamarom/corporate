@@ -1,12 +1,3 @@
-.about-maraom-container { 
-    cursor: default;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(15px);
-    padding: 2rem;
-}
-
 .about-maraom-title {
     margin: 0;
     padding: 0;

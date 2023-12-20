@@ -11,7 +11,6 @@
 
 .marom-page-content {
     background: linear-gradient(-45deg, #ffffff, #785d5f, #f6536c);
-    /* background: linear-gradient(-45deg, #DC2424, #373942); */
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 }
@@ -19,12 +18,19 @@
 .section {
     display: flex;
     justify-content: center;
+    padding: 1.5rem;
 }
 
 .article {
-    flex-basis: 80%;
+    flex-basis: 90%;
     font-size: large;
     padding: 2rem 0;
+    cursor: default;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    padding: 2rem;
 }
 
 .article p{
