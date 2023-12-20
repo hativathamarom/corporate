@@ -33,9 +33,9 @@ export default function HomePage() {
             </header>
             <div className={style["marom-page-content"]}>
                 <section className={style["section"]} ref={aboutRef} >
-                    <div className={style["article"]}>
+                    <article className={style["article"]}>
                         <MaromAbout />
-                    </div>
+                    </article>
                 </section>
                 <hr />
                 <section className={style["section"]} ref={commanderPageRef} >
