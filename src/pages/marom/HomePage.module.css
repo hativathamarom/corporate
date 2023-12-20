@@ -18,7 +18,7 @@
 .section {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .article {
@@ -54,16 +54,13 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .section {
+        padding: 1rem;
+    }
+
     .nav-container {
         width: 100%;
     }
 
-    .about-maraom-title h1 {
-        font-size: 3rem;
-    }
-
-    .about-maraom-title h3 {
-        font-size: 1.5rem;
-        line-height: 30px;
-    }
 }
