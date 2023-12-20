@@ -4,33 +4,33 @@
 }
 
 .image {
-    width: 60%;
-}
-
-.symbol {
-    margin-top: 30px;
-    text-align: center;
+    width: 50%;
 }
 
 .info {
-    width: 40%;
+    width: 50%;
     color: rgb(185, 184, 184);
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     /* background: linear-gradient(#000000ce, #373737de); */
 }
 
+.symbol {
+    margin-top: 15px;
+    text-align: center;
+}
+
 .info img {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
 }
 
 .info p {
     margin: auto;
-    width: 80%;
+    width: 90%;
     height: fit-content;
     font-size: 100%;
-    margin-top: 30px;
+    margin-top: 15px;
     line-height: 2rem;
     text-align: justify;
     font-weight: 700;
@@ -87,6 +87,7 @@
 
     .info p {
         font-size: 80%;
+        line-height: 1.5rem;
     }
   
 }
