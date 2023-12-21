@@ -10,6 +10,7 @@ import MaromAbout from "./about/MaromAbout"
 import MaromNavigation from "./navigation/MaromNavigation"
 import MaromTitle from "./header/MaromTitle"
 import CommanderPage from "./commander-page/CommanderPage"
+import SocialMediaLinks from "./social-media/SocialMediaLinks"
 
 
 const images = [image1, image2, image3, image4, image5]
@@ -19,7 +20,7 @@ export default function HomePage() {
     const commanderPageRef = useRef<HTMLElement>(null)
 
     return (
-        <>
+        <div className={style["marom-page-container"]}>
             <header className={style["header"]}>
                 <div className={style["nav-container"]}>
                     <MaromNavigation aboutRef={aboutRef} commanderPageRef={commanderPageRef} />
@@ -30,20 +31,21 @@ export default function HomePage() {
                 <div>
                     <MaromTitle />
                 </div>
+                <div>
+                    <SocialMediaLinks />
+                </div>
             </header>
-            <div className={style["marom-page-content"]}>
-                <section className={style["section"]} ref={aboutRef} >
-                    <article className={style["article"]}>
-                        <MaromAbout />
-                    </article>
-                </section>
-                <hr />
-                <section className={style["section"]} ref={commanderPageRef} >
-                    <article className={style["article"]}>
-                        <CommanderPage />
-                    </article>
-                </section>
-            </div>
-        </>
+            <section className={style["section"]} ref={aboutRef} >
+                <article className={style["article"]}>
+                    <MaromAbout />
+                </article>
+            </section>
+            <hr />
+            <section className={style["section"]} ref={commanderPageRef} >
+                <article className={style["article"]}>
+                    <CommanderPage />
+                </article>
+            </section>
+        </div>
     )
 }
