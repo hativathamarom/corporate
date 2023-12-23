@@ -43,6 +43,8 @@ import BalnamArticlesPage from "./pages/balnam/article/BalnamArticlesPage";
 import ThnihaHatasaArticlesPage from "./pages/thniha-hatasa/article/ThnihaHatasaArticlesPage";
 import BetSeferYeriArticlesPage from "./pages/bet-sefer-yeri/article/BetSeferYeriArticlesPage";
 import HaspakaHatasaArticlesPage from "./pages/haspaka-hatasa/article/HaspakaHatasaArticlesPage";
+import OmerPage from "./pages/omer/OmerPage";
+import OmerInfoPage from "./pages/omer/info/OmerInfoPage";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -53,6 +55,9 @@ const router = createHashRouter(
         <Route path="video" element={<OketzVideoPage />} />
         <Route path="articles" element={<OketzArticlesPage />} />
         <Route path="yizkor" element={<OketzYizkorPage />} />
+      </Route>
+      <Route path="omer" element={<OmerPage />}>
+        <Route index element={<OmerInfoPage />} />
       </Route>
       <Route path="lotar" element={<LotarPage />}>
         <Route index element={<LotarInfoPage />} />

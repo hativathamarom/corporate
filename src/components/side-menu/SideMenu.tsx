@@ -30,6 +30,9 @@ export default function SideMenu() {
                         <MenuItem path="/oketz" alias={`עוקץ`} />
                     </div>
                     <div>
+                        <MenuItem path="/omer" alias={`עומר`} />
+                    </div>
+                    <div>
                         <MenuItem path="/lotar" alias={`לוט"ר`} />
                     </div>
                     <div>

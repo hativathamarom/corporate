@@ -1,0 +1,8 @@
+.info-container {
+    height: 90%;
+    position: relative;
+}
+
+.info-container img {
+    width: 100px;
+}
