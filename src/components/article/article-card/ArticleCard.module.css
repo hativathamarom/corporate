@@ -63,6 +63,6 @@
 @media screen and (max-width: 600px ) {
     .article {
         flex: 0 0 90%;
-        height: 550px;
+        height: 600px;
     }
 }
