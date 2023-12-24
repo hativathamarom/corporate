@@ -1,7 +1,30 @@
 .marom-page-container {
-    background: linear-gradient(-45deg, #000000, #929292, #ffffff);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+    /* position: relative; */
+    /* background-color: white; */
+    /* background: linear-gradient(-45deg, #000000, #929292, #ffffff); */
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%); */
+    /* -webkit-clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
+    clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
+    width:200px;
+    height:200px;
+    background:#E0E6E5; */
+}
+
+.marom-page-container::before {
+    /* position: absolute;
+    content: '';
+    inset: 0;
+    left:30%;
+    z-index: -1;
+    background-color:red;
+    clip-path: polygon(
+        39% 0,
+        100% 0,
+        100% 100%,
+        0 100%
+    ); */
 }
 
 .nav-container {
@@ -14,6 +37,27 @@
     padding-top: 74px;
 }
 
+.section-container {
+    position: relative;
+    background: white;
+    /* background: linear-gradient(-45deg, #000000, #929292, #ffffff); */
+    background-color: white;
+}
+
+.section-container::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    /* left: 30%; */
+
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    /* z-index: 0; */
+    background: red;
+    /* clip-path: polygon(39% 0,
+            100% 0,
+            100% 100%,
+            0 100%); */
+}
 
 .section {
     display: flex;
@@ -33,7 +77,7 @@
     padding: 2rem;
 }
 
-.article p{
+.article p {
     text-align: justify;
 }
 
@@ -42,15 +86,17 @@
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @media screen and (max-width: 600px) {

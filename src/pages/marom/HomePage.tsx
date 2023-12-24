@@ -35,17 +35,19 @@ export default function HomePage() {
                     <SocialMediaLinks />
                 </div>
             </header>
-            <section className={style["section"]} ref={aboutRef} >
-                <article className={style["article"]}>
-                    <MaromAbout />
-                </article>
-            </section>
-            <hr />
-            <section className={style["section"]} ref={commanderPageRef} >
-                <article className={style["article"]}>
-                    <CommanderPage />
-                </article>
-            </section>
+            <div className={style["section-container"]}>
+                <section className={style["section"]} ref={aboutRef} >
+                    <article className={style["article"]}>
+                        <MaromAbout />
+                    </article>
+                </section>
+                {/* <hr /> */}
+                <section className={style["section"]} ref={commanderPageRef} >
+                    <article className={style["article"]}>
+                        <CommanderPage />
+                    </article>
+                </section>
+            </div>
         </div>
     )
 }
