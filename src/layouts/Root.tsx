@@ -1,7 +1,14 @@
 import Main from "./Main/Main"
-
-export default function Root () {
+import { ScrollRestoration } from "react-router-dom";
+export default function Root() {
     return (
+        <>
+            <ScrollRestoration getKey={(location
+            // ,matches
+            ) => {
+                return location.key;
+            }} />
             <Main />
+        </>
     )
 }
