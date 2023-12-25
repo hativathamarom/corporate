@@ -14,3 +14,15 @@
 .info-container img {
     width: 100px;
 }
+
+@media (max-width: 600px) { 
+
+    :global(.omer-info-container .info-slide) {
+        width: 100%;
+    }
+    
+    :global(.omer-info-container .info-image) {
+        width: 0;
+    }
+
+}
