@@ -19,4 +19,10 @@
     outline: none;
     border-radius: 5px;
     box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.6);
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+}
+
+.yizkor-card-search input::placeholder{
+    color: black;
 }
