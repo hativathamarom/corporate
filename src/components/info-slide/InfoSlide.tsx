@@ -4,8 +4,8 @@ import style from "./InfoSlide.module.css"
 export default function InfoSlide(props: InfoSlideProps) {
     return (
         <div className={style["info-slide-container"]}>
-            <div className={style["image"]}></div>
-            <div className={style["info"]}>
+            <div className={`${style["image"]} ${'info-image'}`}></div>
+            <div className={`${style["info"]} ${'info-slide'}`}>
                 <div className={style["symbol"]}>
                     <img src={props.symbol} />
                 </div>

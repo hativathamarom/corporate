@@ -6,7 +6,7 @@ import style from "./OmerInfoPage.module.css"
 
 export default function OmerInfoPage() {
     return (
-        <div className={style["info-container"]}>
+        <div className={`${style["info-container"]} ${'omer-info-container'}`}>
             <LazyBackgroundImg
                 img={infoData.img}
                 compressImg={infoData.compressImg}

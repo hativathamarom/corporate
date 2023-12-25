@@ -1,3 +1,11 @@
+:global(.omer-info-container .info-slide) {
+    width: 30%;
+}
+
+:global(.omer-info-container .info-image) {
+    width: 70%;
+}
+
 .info-container {
     height: 90%;
     position: relative;
