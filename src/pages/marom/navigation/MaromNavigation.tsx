@@ -5,6 +5,7 @@ import style from "./MaromNavigation.module.css"
 import { SideMenuContext } from "../../../contexts/SideMenuContext"
 import { MaromNavigationProps } from "../../../types/marom-navigation"
 import ScrollIndicator from "../../../components/scroll-indicator/ScrollIndicator"
+import { Link } from "react-router-dom"
 
 
 export default function MaromNavigation(props: MaromNavigationProps) {
@@ -29,6 +30,9 @@ export default function MaromNavigation(props: MaromNavigationProps) {
                         </div>
                         <div className={style["menu-link-container"]}>
                             <Anchor yoffset={-50} linkRef={props.commanderPageRef} text="דף מפקד" />
+                        </div>
+                        <div className={style["menu-link-container"]}>
+                            <Link to={'marom-yizkor'} > יזכור🕯️ </Link> 
                         </div>
                     </div>
                     <div className={style["menu-icon"]}></div>

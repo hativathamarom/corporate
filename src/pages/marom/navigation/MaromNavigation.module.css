@@ -39,6 +39,10 @@
     border-top: 1px solid white;
 }
 
+.menu-link-container a {
+    text-decoration: none;
+}
+
 
 
 @keyframes top-navigation {

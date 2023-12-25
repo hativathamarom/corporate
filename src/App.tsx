@@ -45,11 +45,13 @@ import BetSeferYeriArticlesPage from "./pages/bet-sefer-yeri/article/BetSeferYer
 import HaspakaHatasaArticlesPage from "./pages/haspaka-hatasa/article/HaspakaHatasaArticlesPage";
 import OmerPage from "./pages/omer/OmerPage";
 import OmerInfoPage from "./pages/omer/info/OmerInfoPage";
+import MaromYizkorPage from "./pages/marom/yizkor/MaromYizkorPage";
 
 const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
       <Route index element={<HomePage />} />
+      <Route path="marom-yizkor" element={<MaromYizkorPage />} />
       <Route path="oketz" element={<OketzPage />}>
         <Route index element={<OketzInfoPage />} />
         <Route path="video" element={<OketzVideoPage />} />
