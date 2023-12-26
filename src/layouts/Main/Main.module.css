@@ -3,6 +3,14 @@
     height: inherit;
 }
 
+.main-container-open {
+    overflow: hidden;
+}
+
+.main-container-close {
+    overflow: visible;
+}
+
 .left-side-menu-open {
     width: 15%;
 }
