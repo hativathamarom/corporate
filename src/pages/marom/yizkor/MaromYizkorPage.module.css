@@ -2,3 +2,11 @@
     background-color: black;
     min-height: 90%;
 }
+
+.yizkor-title {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 4rem;
+    text-shadow: 5px 15px 5px gray;
+}

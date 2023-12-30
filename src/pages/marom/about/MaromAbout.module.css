@@ -22,9 +22,9 @@
     list-style-type: none;
 }
 
-.unit-list li:hover {
+/* .unit-list li:hover {
     color: goldenrod;
-}
+} */
 
 
 @media screen and (max-width: 600px) { 
