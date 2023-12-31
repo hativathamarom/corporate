@@ -11,7 +11,7 @@ export default function MaromYizkorPage() {
                 { text: 'חזור', to: '/' },
             ]} />
             <div className={style["yizkor-container"]}>
-                <h1 className={style["yizkor-title"]}>יזכור חטיבת המרום</h1>
+                <h1 className={style["yizkor-title"]}>יזכור מפקדת חטיבת מרום</h1>
                 <YizkorCardList
                     yizkorCardList={maromYizkorListData}
                 />

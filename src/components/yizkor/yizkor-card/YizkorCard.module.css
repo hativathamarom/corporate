@@ -35,7 +35,7 @@
 }
 
 .yizkor-name {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .yizkor-name-container div {
@@ -63,6 +63,7 @@
 }
 
 .yizkor-main span {
+    font-size: larger;
     font-weight: 900;
     text-decoration: underline;
 }
@@ -70,7 +71,7 @@
 .yizkor-main p {
     margin: 5px 0;
     text-align: justify;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 
@@ -102,6 +103,6 @@
         height: 460px;
     }
     .yizkor-name-container h1 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 }
