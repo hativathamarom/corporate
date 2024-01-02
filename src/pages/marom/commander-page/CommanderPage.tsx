@@ -7,7 +7,7 @@ export default function CommanderPage() {
         <>
             <h1 className={style["about-maraom-title"]}>דברי מפקד החטיבה</h1>
             <div className={style["commander-page-content"]}>
-                <p style={{ fontSize:"2rem", fontWeight: "bolder" }}> מפקדים, לוחמים וחיילים</p>
+                <p style={{ fontSize:"1.5rem", fontWeight: "bolder" }}> מפקדים, לוחמים וחיילים</p>
                 <p>״ארדוף אויבי ואשיגם, ולא אשוב עד כלותם״</p>
                 <p>המלחמה עדיין לא נגמרה!</p>
                 <p>הזכות להגן על עצמנו כעם מאויבנו הרבים תשאר לעולמים.</p>

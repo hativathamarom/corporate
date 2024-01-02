@@ -61,13 +61,12 @@
 .article {
     flex-basis: 90%;
     font-size: large;
-    padding: 2rem 0;
     cursor: default;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
-    padding: 2rem 5rem;
+    padding: 2rem 4rem;
 }
 
 .article p {
@@ -100,6 +99,11 @@
 
     .nav-container {
         width: 100%;
+    }
+
+
+    .article {
+        padding: 2rem 2rem;
     }
 
 }
