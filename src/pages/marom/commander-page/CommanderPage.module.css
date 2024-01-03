@@ -5,7 +5,7 @@
     font-size: 4rem;
     color:#fff; 
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);
-    -webkit-box-reflect: below -25px linear-gradient(transparent, rgba(0,0,0,.2));
+    
     /* text-shadow:-1px -1px 3px #000,-1px 1px 3px #000,1px -1px 3px #000,1px 1px 3px #000; */
 }
 
@@ -15,6 +15,13 @@
 
 .signature , .signature p {
     text-align: left;
+}
+
+@media screen and (min-width: 600px) {
+    .about-maraom-title {
+        -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0,0,0,.2));
+        margin: 0 0 60px 0 ;
+    }
 }
 
 @media screen and (max-width: 600px) {
