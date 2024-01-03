@@ -6,6 +6,10 @@ export default function BetSeferYeriVideoPage() {
             <VideoCardList 
                 videos={[
                     {
+                        title:`סיכום 60 יום ״חרבות ברזל״ ⚔️🔥 | בית הספר למקצועות הירי`,
+                        src:`https://www.youtube.com/embed/ROegqHDczeY?si=jo2cLVvTOstYnln2`
+                    },
+                    {
                         title:`בול פגיעה: איך לומדים לירות? | צה״ל`,
                         src:`https://www.youtube.com/embed/5Mf7LPW2whE?si=Cx6bMp-lnVd6tV92`
                     },

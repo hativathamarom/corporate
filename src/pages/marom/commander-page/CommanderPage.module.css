@@ -16,6 +16,18 @@
 .signature , .signature p {
     text-align: left;
 }
+.signature p {
+    width: 100px;
+}
+
+.signature-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
 
 @media screen and (min-width: 600px) {
     .about-maraom-title {

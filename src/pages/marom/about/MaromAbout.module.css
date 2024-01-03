@@ -9,13 +9,8 @@
     
 }
 
-.about-maraom-container p,
-.about-maraom-container li {
-    font-size: 1.15rem;
-    font-weight: 600;
-    color: #18191a;
-    text-align: justify;
-    
+.about-maraom-container p{
+    margin: 1% 0;
 }
 
 .unit-list {
@@ -24,9 +19,6 @@
     list-style-type: none;
 }
 
-/* .unit-list li:hover {
-    color: goldenrod;
-} */
 
 @media screen and (min-width: 600px) { 
     .about-maraom-title {

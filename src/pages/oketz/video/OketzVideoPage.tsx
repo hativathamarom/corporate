@@ -6,6 +6,10 @@ export default function OketzVideoPage() {
             <VideoCardList 
                 videos={[
                     {
+                        title:`יחידת עוקץ כתבה מערוץ 12`,
+                        src:`https://www.youtube.com/embed/im0mDo8ix1Q?si=VpUbdGtvudS0l6Ac`
+                    },
+                    {
                         title:`לוחם עוקץ עונה על כל השאלות`,
                         src:`https://www.youtube.com/embed/2q0_8vpK6Ws?si=fHjKPiOuO957pxOY`
                     },
