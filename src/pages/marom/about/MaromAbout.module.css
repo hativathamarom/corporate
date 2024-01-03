@@ -1,6 +1,7 @@
 .about-maraom-title {
+    -webkit-box-reflect: below -25px linear-gradient(transparent, rgba(0,0,0,.2));
     text-align: center;
-    margin: 0 0 30px 0 ;
+    margin: 0 0 50px 0 ;
     padding: 0;
     font-size: 4rem;
     color:#fff; 
