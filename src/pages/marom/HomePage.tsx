@@ -1,9 +1,5 @@
 import { useRef } from "react"
-import image1 from "../../assets/home/images/1.jpeg"
-import image2 from "../../assets/home/images/2.jpeg"
-import image3 from "../../assets/home/images/3.jpeg"
-import image4 from "../../assets/home/images/4.jpeg"
-import image5 from "../../assets/home/images/5.jpeg"
+
 import style from "./HomePage.module.css"
 import ImageSlider from "../../components/image/image-slider/ImageSlider"
 import MaromAbout from "./about/MaromAbout"
@@ -11,9 +7,7 @@ import MaromNavigation from "./navigation/MaromNavigation"
 import MaromTitle from "./header/MaromTitle"
 import CommanderPage from "./commander-page/CommanderPage"
 import SocialMediaLinks from "./social-media/SocialMediaLinks"
-
-
-const images = [image1, image2, image3, image4, image5]
+import { images } from './slide-images'
 
 export default function HomePage() {
     const aboutRef = useRef<HTMLElement>(null)

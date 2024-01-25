@@ -15,7 +15,7 @@ export default function ImageSlider(props: ImageSliderProps) {
         return (() => {
             clearInterval(intervalId)
         })
-    }, [])
+    }, [currentImage])
 
     const onNextHandler = () => {
         setCurrentImage(prev => {
