@@ -26,7 +26,7 @@ export default function HomePage() {
                     <MaromTitle />
                 </div>
                 <div>
-                    <SocialMediaLinks />
+                    {/* <SocialMediaLinks /> */}
                 </div>
             </header>
             <div className={style["section-container"]}>

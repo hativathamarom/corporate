@@ -24,6 +24,7 @@ import image23 from "../../assets/home/images/23.jpeg"
 import image24 from "../../assets/home/images/24.jpg"
 import image25 from "../../assets/home/images/25.jpg"
 import image26 from "../../assets/home/images/26.jpg"
+import image27 from "../../assets/home/images/27.jpeg"
 
 export const images = [
     image1,
@@ -51,5 +52,6 @@ export const images = [
     image23,
     image24,
     image25,
-    image26
+    image26,
+    image27
 ]
