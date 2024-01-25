@@ -6,7 +6,7 @@ import MaromAbout from "./about/MaromAbout"
 import MaromNavigation from "./navigation/MaromNavigation"
 import MaromTitle from "./header/MaromTitle"
 import CommanderPage from "./commander-page/CommanderPage"
-import SocialMediaLinks from "./social-media/SocialMediaLinks"
+// import SocialMediaLinks from "./social-media/SocialMediaLinks"
 import { images } from './slide-images'
 
 export default function HomePage() {
