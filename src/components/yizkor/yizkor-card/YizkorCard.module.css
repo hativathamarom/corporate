@@ -8,8 +8,7 @@
     background-size: cover;
 }
 .yizkor-card {
-    
-    height: 400px;
+    height: 450px;
     width: 100%;
     padding: 20px;
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.25);
@@ -52,8 +51,8 @@
 
 .yizkor-personal-img {
     border-radius: 5px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .yizkor-gif {
